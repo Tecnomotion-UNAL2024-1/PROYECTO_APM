@@ -2,12 +2,13 @@
 
 Somos Tecnomotion, un equipo a cargo del curso de Automatización de Procesos de Manufactura de la Universidad Nacional de Colombia en el semestre 2024-1. Estamos integrados por:
 
+- Theylor Andrés Amaya Villabon
+- Juan Pablo Cárdenas Higuera
 - Johan Leonardo Castellanos Ruiz
-- Wilfer Armando Fiquitiva Mendez
 - Daniel Alejandro Delgado Arcila
+- Wilfer Armando Fiquitiva Mendez
 - Danilo Enrique Insuasty Delgado
-- Theylor Andrés Amaya
-- Juan Pablo Cárdenas
+
 
 ## Descripción del Proyecto
 
