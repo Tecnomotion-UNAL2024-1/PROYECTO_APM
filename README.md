@@ -17,7 +17,7 @@ Teniendo en cuenta lo anterior, se definen tres líneas principales de productos
 
 •	Piso cerámico de interiores 60x60 cm:
 
-![Imagenes](./Imagenes/Ceramico 60x60 cm.png)
+![Imagenes](./Imagenes/Ceramico%2060x60 cm.png)
 
 Ancho: 60 cm 
 
@@ -77,6 +77,7 @@ Normas de Fabricación: NTC 4321
 
 
 •	Piso pared cerámico de interiores 60x31cm:
+![Imagenes](./Imagenes/Ceramico%2060x31 cm.png).
 
 Dimensiones: Ancho:31 cm, espesor:8.4 mm largo:60 cm
 
@@ -145,6 +146,8 @@ Cantidad contenida en el empaque:9 unidad(es)
 
 
 •	Piso porcelanico interiores y exteriores 45x45.
+![Imagenes](./Imagenes/Ceramico%2045x45 cm.png).
+
 
 Dimensiones: 45 x 45 cm.
 
