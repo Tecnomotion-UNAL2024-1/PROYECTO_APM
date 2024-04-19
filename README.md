@@ -28,126 +28,186 @@ Peso: 17.5 kg
 Especificaciones
 
 Tipo: Pisos cerámicos
-Acabado
 
-revestimiento: Satín
+Acabado: revestimiento: Satín
 
 Antideslizante / Uso en duchas: No apto para zonas húmedas y duchas
+
 Apariencia: Maderadas
+
 Coeficiente de fricción DCOF: Clase 1 menor o igual a 0,42
+
 Color: Terracota
-Color referencial: Café/Marrón
+
+Color referencial: Café/Marrón.
+
 Compatible con suelo radiante: No
+
 Dilatación de junta:3 mm
+
 Material: Cerámica
+
 Número de caras: 4
+
 Número de piezas: 5
+
 País de Origen: Colombia
+
 Rendimiento por caja: 1.8 m2
+
 Resistencia al agua: Si
+
 Resistencia al congelamiento: No
+
 Resistencia al desgaste: PEI III (Tránsito medio)
+
 Resistencia al tráfico: Residencial
+
 Textura de superficie: Liso
+
 Tipo de borde: No Rectificado
+
 Ubicación: Local comercial;Oficina;Zona social
+
 Uso de revestimiento: Piso
+
 Normas de Fabricación: NTC 4321
 
 
 •	Piso pared cerámico de interiores 60x31cm:
 
-Dimensiones
-Ancho:31 cm
-Ancho aproximado: Menor o igual a 35 cm
-Espesor:8.4 mm
-Largo:60 cm
+Dimensiones: Ancho:31 cm, espesor:8.4 mm largo:60 cm
+
 Peso: 27.50 kg
-Especificaciones
+
+Especificaciones:
 Tipo: Pisos cerámicos
-Garantía Producto: 5 años
+
 Acabado revestimiento:Mate
-Adhesivo recomendado: Adhesivo cerámico
+
 Ambiente: Interior
+
 Antideslizante / Uso en duchas: No apto para zonas húmedas y duchas
+
 Apariencia: Rústicas
+
 Coeficiente de fricción DCOF: Clase 1 menor o igual a 0,42
+
 Color:Beige
-Color : Referencial Beige
+
 Compatible con suelo radiante:No
+
 Cuenta con biselado: No
+
 Dilatación de junta: 4 mm
-Espacio recomendado:Baño;Cocina;Comedor;Dormitorio;Oficina;Sala Estar
+
+Espacio recomendado:Baño;Cocina;Comedor;Dormitorio;Oficina;Sala Estar.
+
 Forma del revestimiento:Rectangular
+
 Formato del producto:Caja
+
 Material: Cerámica
-Número de caras: 7
+
 Número de piezas: 9
-País de Origen: Colombia
+
 Rendimiento por caja:1.68 cm2
+
 Resistencia al agua: Si
+
 Resistencia al congelamiento: No 
+
 Resistencia al desgaste: PEI III (Tránsito medio)
+
 Resistencia al tráfico: Medio
-Resistencia al tráfico: Comercial Moderado
+
+Resistencia al tráfico: Comercial Moderado.
+
 Textura de superficie:Texturizado
+
 Tipo de borde:No Rectificado
+
 Tipo de losa: Cerámica tipo marmolada
+
 Tipo de revestimiento:Cerámica
+
 Uso de revestimiento: Piso y muro
-Marca: Ceramica San Lorenzo
+
 Estilo deco: Clásico
-Modelo: Laja
+
+Modelo: Laja.
+
 Normas de Fabricación: NTC 919 e ISO 13006
+
 Cantidad contenida en el empaque:9 unidad(es)
 
 
 •	Piso porcelanico interiores y exteriores 45x45.
 
-Dimensiones:
-45 x 45 cm.
+Dimensiones: 45 x 45 cm.
+
 Espesor: 0.85 cm
-Largo: 45 cm
+
 Peso: 20.8 kg
-Especificaciones
-Tipo: Gres Porcelánico
+
+Especificaciones:
+
+Tipo: Gres Porcelánico.
+
 Acabado revestimiento: Mate
+
 Adhesivo recomendado: Adhesivo porcelanato
-Ambiente: Interior;Exterior
-Apariencia: Rústicas
-Aplicación:Interior y exterior
+
+Ambiente: Interior;Exterior.
+
+Apariencia: Rústicas.
+
+Aplicación:Interior y exterior.
+
 Caras por empaque: 7
-Caras por proyecto:8 o más
-Coeficiente de fricción DCOF: Exterior húmedo mayor o igual a 0,55 wet
-Color: Beige
-Color referencial: Beige
+
+Coeficiente de fricción DCOF: Exterior húmedo mayor o igual a 0,55 wet.
+
+Color: Beige.
+
 Compatible con suelo radiante:Si
+
 Contenido: 7 unidad(es)
+
 Cuenta con protección UV: Si
+
 Esmaltado: Si
+
 Espacio recomendado: Terrazas-Exterior;Cocina;Living;Sala Estar
+
 Forma: Cuadrada
+
 Forma del revestimiento: Cuadrada
-Material: Gres Porcelánico
-Medidas aproximadas
-45X45 cm
-Número de piezas: 7
-País de Origen: España
+
+Material: Gres Porcelánico.
+
 Rendimiento por caja: 1.42 m2
+
 Resistencia a la humedad: Alta
+
 Resistencia a rayaduras: Si
+
 Resistencia al desgaste: PEI IV (Tránsito alto)
-Resistencia al tráfico:Medio
-Textura de superficie: Relieve
+
+Textura de superficie: Relieve.
+
 Tipo de borde: No Rectificado
+
 Tipo de revestimiento:Porcelanato
-Ubicación: Exterior intemperie;Cocina;Zona social;Zona social
-Uso de revestimiento: Piso y muro
-Material: Gres Porcelánico
-Estilo deco: Boho Chic
-Modelo: Pulse Antique Beige
-Producto Empacado
+
+Ubicación: Exterior intemperie;Cocina;Zona social;Zona social.
+
+Uso de revestimiento: Piso y muro.
+
+Material: Gres Porcelánico.
+
 Cantidad contenida en el empaque: 7 unidad(es)
+
 Dimensiones producto empacado: 
 45,2x45,4x6,3 cms
 
