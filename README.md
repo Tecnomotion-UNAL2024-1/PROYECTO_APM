@@ -221,10 +221,11 @@ Dimensiones producto empacado:
 Con base en las especificaciones técnicas de las referencias previamente seleccionadas y mencionadas, debemos considerar que los pisos y revestimientos de paredes interiores se fabrican en cerámica. Por otro lado, el porcelanato es ideal tanto para exteriores como para interiores de alto tráfico. La selección de la prensa adecuada para la compactación de estos materiales es crucial, ya que constituye la referencia inicial para determinar la capacidad de producción de la línea, de acuerdo con la referencia que se esté fabricando. Esto se debe a que el gres porcelánico requiere un tiempo de prensado más prolongado y una presión más alta para lograr una mayor compactación, lo cual determina el nivel de impermeabilidad de la baldosa.
 
 Al considerar las dimensiones de los productos y el material a prensar se procede a la selección de la prensa adecuada. Para ello, se emplea el catálogo de SACMI PH, una empresa especializada en la fabricación de prensas para el sector cerámico.
-Tras analizar el catálogo y los productos a producir se identifica la prensa ideal teniendo en cuenta que nuestro formato máximo es de 60x60 cm. En el catálogo, encontramos la prensa PH8200 VELOCE, una máquina de última generación que ofrece una alta velocidad de prensado, alcanzando hasta 14 ciclos por minuto, con una fuerza de cierre de 8,200 KN y un clearance de 2,450 mm la cual nos permite prensar hasta dos baldosas or ciclo con un formato de 60x60 cm (consultar ficha técnica completa en el anexo 1).
+
+Tras analizar el catálogo y los productos a producir se identifica la prensa ideal teniendo en cuenta que nuestro formato máximo es de 60x60 cm. En el catálogo, encontramos la prensa PH8200 VELOCE (Figura 1), una máquina de última generación que ofrece una alta velocidad de prensado, alcanzando hasta 14 ciclos por minuto, con una fuerza de cierre de 8,200 KN y un clearance de 2,450 mm la cual nos permite prensar hasta dos baldosas or ciclo con un formato de 60x60 cm (consultar ficha técnica completa en el anexo 1).
 
 ![Imagenes](./Imagenes/Veloce%20PH8200.png).
-
+###Figura 1 Troquelador PH8200 SACMI.
 
 ### Gestión de Producción y Automatización
 
