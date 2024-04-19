@@ -225,6 +225,7 @@ Al considerar las dimensiones de los productos y el material a prensar se proced
 Tras analizar el catálogo y los productos a producir se identifica la prensa ideal teniendo en cuenta que nuestro formato máximo es de 60x60 cm. En el catálogo, encontramos la prensa PH8200 VELOCE (Figura 1), una máquina de última generación que ofrece una alta velocidad de prensado, alcanzando hasta 14 ciclos por minuto, con una fuerza de cierre de 8,200 KN y un clearance de 2,450 mm la cual nos permite prensar hasta dos baldosas or ciclo con un formato de 60x60 cm (consultar ficha técnica completa en el anexo 1).
 
 ![Imagenes](./Imagenes/Veloce%20PH8200.png).
+
 ###Figura 1 Troquelador PH8200 SACMI.
 
 ### Gestión de Producción y Automatización
