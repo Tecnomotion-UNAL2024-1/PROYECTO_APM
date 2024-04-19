@@ -226,7 +226,7 @@ Tras analizar el catálogo y los productos a producir se identifica la prensa id
 
 ![Imagenes](./Imagenes/Veloce%20PH8200.png).
 
-###Figura 1 Troquelador PH8200 SACMI.
+###Figura 1 Troqueladora PH8200 SACMI.
 
 ### Gestión de Producción y Automatización
 
