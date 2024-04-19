@@ -17,6 +17,8 @@ Teniendo en cuenta lo anterior, se definen tres líneas principales de productos
 
 •	Piso cerámico de interiores 60x60 cm:
 
+![Imagenes](./Imagenes/Ceramico 60x60 cm.png)
+
 Ancho: 60 cm 
 
 Espesor: 8.3 mm
