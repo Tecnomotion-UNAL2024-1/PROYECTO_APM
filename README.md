@@ -15,7 +15,7 @@ Somos Tecnomotion, un equipo a cargo del curso de Automatización de Procesos de
 El desarrollo de la construcción ha sido una necesidad primordial para la humanidad, ya que implica la creación de espacios para llevar a cabo actividades cotidianas como trabajar, estudiar y vivir. Estos espacios deben estar diseñados de manera adecuada para proporcionar comodidad y condiciones óptimas para cada función específica. Por ello, la fabricación de cerámica ofrece una amplia gama de productos que no solo añaden armonía y belleza a los ambientes, sino que también proporcionan propiedades específicas de durabilidad y resistencia, adaptadas a las condiciones de uso, ya sea en interiores o exteriores, así como en entornos residenciales o industriales. Esto implica directamente la resistencia al desgaste y a la humedad.
 Teniendo en cuenta lo anterior, se definen tres líneas principales de productos a producir, que son:
 
-•	Piso cerámico de interiores 60x60 cm:
+## •	Piso cerámico de interiores 60x60 cm:
 
 ![Imagenes](./Imagenes/Ceramico%2060x60%20cm.png)
 
@@ -76,7 +76,8 @@ Uso de revestimiento: Piso
 Normas de Fabricación: NTC 4321
 
 
-•	Piso pared cerámico de interiores 60x31cm:
+## •	Piso pared cerámico de interiores 60x31cm:
+
 ![Imagenes](./Imagenes/Ceramico%2060x31%20cm.png).
 
 Dimensiones: Ancho:31 cm, espesor:8.4 mm largo:60 cm
@@ -145,8 +146,9 @@ Normas de Fabricación: NTC 919 e ISO 13006
 Cantidad contenida en el empaque:9 unidad(es)
 
 
-•	Piso porcelanico interiores y exteriores 45x45.
-![Imagenes](./Imagenes/Ceramico%2045x45 cm.png).
+## •	Piso porcelanico interiores y exteriores 45x45.
+
+![Imagenes](./Imagenes/Porcelanico%2045x45%20cm.png).
 
 
 Dimensiones: 45 x 45 cm.
