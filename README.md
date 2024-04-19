@@ -215,7 +215,7 @@ Con base en las especificaciones técnicas de las referencias previamente selecc
 
 Al considerar las dimensiones de los productos y el material a prensar se procede a la selección de la prensa adecuada. Para ello, se emplea el catálogo de SACMI PH, una empresa especializada en la fabricación de prensas para el sector cerámico.
 Tras analizar el catálogo y los productos a producir se identifica la prensa ideal teniendo en cuenta que nuestro formato máximo es de 60x60 cm. En el catálogo, encontramos la prensa PH8200 VELOCE, una máquina de última generación que ofrece una alta velocidad de prensado, alcanzando hasta 14 ciclos por minuto, con una fuerza de cierre de 8,200 KN y un clearance de 2,450 mm la cual nos permite prensar hasta dos baldosas or ciclo con un formato de 60x60 cm (consultar ficha técnica completa en el anexo 1)
-!.[]([Imagenes/Veloce PH8200.png](https://github.com/Tecnomotion-UNAL2024-1/PROYECTO_APM/blob/main/Imagenes/Veloce%20PH8200.png))
+!.[]([Imagenes](./Imagenes/Veloce PH8200.png))
 
 
 ### Gestión de Producción y Automatización
