@@ -77,7 +77,7 @@ Normas de Fabricación: NTC 4321
 
 
 •	Piso pared cerámico de interiores 60x31cm:
-![Imagenes](./Imagenes/Ceramico%2060x31 cm.png).
+![Imagenes](./Imagenes/Ceramico%2060x31%20cm.png).
 
 Dimensiones: Ancho:31 cm, espesor:8.4 mm largo:60 cm
 
