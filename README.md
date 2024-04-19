@@ -18,13 +18,20 @@ Teniendo en cuenta lo anterior, se definen tres líneas principales de productos
 •	Piso cerámico de interiores 60x60 cm:
 
 Ancho: 60 cm 
+
 Espesor: 8.3 mm
+
 Largo: 60 cm
+
 Peso: 17.5 kg
+
 Especificaciones
+
 Tipo: Pisos cerámicos
 Acabado
+
 revestimiento: Satín
+
 Antideslizante / Uso en duchas: No apto para zonas húmedas y duchas
 Apariencia: Maderadas
 Coeficiente de fricción DCOF: Clase 1 menor o igual a 0,42
