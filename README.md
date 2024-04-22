@@ -230,7 +230,7 @@ Tras analizar el catálogo y los productos a producir se identifica la prensa id
 
 En la tabla 1, se muestran las especificaciones técnicas de trabajo más relevantes. En ella, podemos evaluar la producción máxima de baldosas cerámicas, la cual corresponde a 28 baldosas por minuto, basada en dos baldosas por ciclo. Para el caso del gres porcelánico, debemos considerar que el proceso de prensado requiere un tiempo aproximadamente un 30% mayor. Esto se debe a que este producto necesita una mayor compactación y presión, lo que lo hace más resistente e impermeable debido a su textura más sólida.
 
-![Imagenes](./Imagenes/Tabla produccion prensado.png).
+![Imagenes](./Imagenes/Tabla%20produccion%20prensado.png).
 
 ###Tabla 1 Especificaciones de producción prensado.
 
