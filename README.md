@@ -236,7 +236,7 @@ En la tabla 1, se muestran las especificaciones técnicas de trabajo más releva
 
 Por otra parte, se plantea realizar el análisis de una línea de producción que nos permite fabricar las tres referencias de baldosas mencionadas. Para lograr esto, los equipos seleccionados permiten realizar cambios de herramientas específicos para cada referencia. En el caso del prensado, la prensa, gracias al clearance, ofrece la versatilidad de implementar moldes de diferentes tamaños con un diseño de punzón entrante (Figura 2). Esto permite la flexibilidad en el montaje de los productos, ya sea cara hacia arriba o cara hacia abajo, y agiliza el proceso.
 
-![Imagenes](./Imagenes/Imagenes/Molde.png).
+![Imagenes](./Imagenes/Molde.png).
 
 ###Figura 2 molde punzon entrente cortesia SACMI
 
