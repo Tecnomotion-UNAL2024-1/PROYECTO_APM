@@ -264,7 +264,7 @@ En el cual se muestra el cronograma de actividades y responsables de cada una de
 
 ![Imagenes](./Imagenes/Diagrama%20Gantt.png).
 
-###Figura 4 diagrama de Gantt.
+### Figura 4 diagrama de Gantt.
 
 En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo de sus actividades desde la fecha de inicio hasta la fecha de entrega.
 
@@ -279,9 +279,10 @@ En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo d
 
 ### Gestión de Producción y Automatización
 
-- Análisis con el software de simulación de planta en donde se incorporen aspectos de fallas de equipos, disponibilidad, calidad, set-up, tiempos de producción, balance de líneas, colas, determinación de OEE, etc.
-- Consideración de aspectos de pre-automatización, diagramas VSM pre y pos, aplicación de estrategias de pre-automatización.
-- Propuesta de cómo llevar información de la planta a un sistema MES.
+#### VSM(Actual)
+
+![Imagenes](./Imagenes/VSM(propuesta).png)
+
 
 ### Industria 4.0 en la Automatización
 
@@ -292,6 +293,10 @@ En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo d
 - Cronograma del proyecto realizado en alguna herramienta de software como CRM Bitrix24, Microsoft Project o alguna herramienta de planeación de proyectos. Es importante actualizar el cronograma en caso de cambios.
 
 ### Evaluación Económica de Proyectos
+
+#### Análisis de mercado
+
+
 
 - Hoja Excel en donde se evidencien los indicadores VPN, TIR y Payback como sustento para verificar la viabilidad económica del proyecto.
 - Oferta comercial amigable en donde se ofrezca la solución.
