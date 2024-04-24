@@ -238,7 +238,14 @@ Por otra parte, se plantea realizar el análisis de una línea de producción qu
 
 ![Imagenes](./Imagenes/Molde.png).
 
-###Figura 2 molde punzon entrente cortesia SACMI
+###Figura 2 molde punzon entrante cortesia SACMI
+
+
+
+## EDT 
+Con el fin de conocer a fondo el proceso de producción de baldosas e identificar aquellas partes del proceso a mejorar y así optimizar la línea de producción se crea el EDT (Figura 3)orientado a la programación y entregables:
+
+![Imagenes](./Imagenes/Molde.png).
 
 
 
