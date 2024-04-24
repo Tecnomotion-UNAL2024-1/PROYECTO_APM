@@ -286,7 +286,7 @@ En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo d
 
 ### Industria 4.0 en la Automatización
 
-- Imagen de la arquitectura de las comunicaciones utilizadas en el proyecto integrador.
+![Imagenes](./Imagenes/ArqComu.png)
 
 ### Planeación del Proyecto
 
@@ -296,10 +296,19 @@ En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo d
 
 #### Análisis de mercado
 
+En Colombia, la industria de la producción de cerámicos enfrenta un panorama complejo para el año 2024. 
+
+![Imagenes](./Imagenes/ANDIProduccionAnual.png)
+
+Segun la [ANDI](https://www.andi.com.co/Uploads/LaIndustriaCeramicaDeColombia.pdf), durante el periodo comprendido entre 2010 y 2015, se registró un crecimiento anual estimado del 4.6%, mientras que en 2019 se experimentó un notable aumento del 13.8% respecto al año base de 2015, alcanzando una producción de 94'319.298 metros cuadrados. Sin embargo, la irrupción de la pandemia de COVID-19 en 2020 impactó negativamente en la producción, ocasionando una disminución promedio del 5%. 
+
+![Imagenes](./Imagenes/VISCol.png)
+
+Además, en un nuevo informe de la [ANDI](https://www.andi.com.co/Uploads/Balance%202023%20Perspectivas%202024.pdf), el sector de la construcción ha sufrido una notable caída del 46% en sus ventas desde el año 2020, influenciada por los factores del mercado inmobiliario y las tasas de interés. Este contexto desafiante se ve reflejado en las ventas actuales, que se asemejan a las cifras reportadas en 2013, evidenciando una situación de incertidumbre en el mercado de cerámicos.
+
+Si tomamos como base una línea de producción con prensa trabajando 3 turnos de 8 horas, 24 dias al mes durante los doce meses con una eficiencia del 80%, se tiene un estimado de producción de 15.482.600 metros cuadrados equivalente a un 20.7% de la producción total nacional.
 
 
-- Hoja Excel en donde se evidencien los indicadores VPN, TIR y Payback como sustento para verificar la viabilidad económica del proyecto.
-- Oferta comercial amigable en donde se ofrezca la solución.
 
 ### Celda de Manufactura Robotizada
 
