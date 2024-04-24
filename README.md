@@ -245,7 +245,7 @@ Por otra parte, se plantea realizar el análisis de una línea de producción qu
 ## EDT 
 Con el fin de conocer a fondo el proceso de producción de baldosas e identificar aquellas partes del proceso a mejorar y así optimizar la línea de producción se crea el EDT (Figura 3)orientado a la programación y entregables:
 
-![Imagenes](./Imagenes/Molde.png).
+![Imagenes](./Imagenes/EDT.png).
 
 
 
