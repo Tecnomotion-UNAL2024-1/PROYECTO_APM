@@ -251,6 +251,12 @@ Con el fin de conocer a fondo el proceso de producción de baldosas e identifica
 
 En el cual se muestra el cronograma de actividades y responsables de cada una de las actividades en la primera fase de entrega el cual es como una fase investigativa y argumentativa del proceso de producción, que  nos lleva hacia la identificación de la estación de trabajo que mediante nuestra propuesta de valor se busca optimizar mediante la automatización del proceso.
 
+![Imagenes](./Imagenes/Diagrama Gantt.png).
+
+###Figura 4 diagrama de Gantt.
+
+En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo de sus actividades desde la fecha de inicio hasta la fecha de entrega.
+
 
 
 
