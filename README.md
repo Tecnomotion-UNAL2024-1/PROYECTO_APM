@@ -226,28 +226,39 @@ Tras analizar el catálogo y los productos a producir se identifica la prensa id
 
 ![Imagenes](./Imagenes/Veloce%20PH8200.png).
 
-###Figura 1 Troqueladora PH8200 SACMI.
+### Figura 1 Troqueladora PH8200 SACMI.
 
 En la tabla 1, se muestran las especificaciones técnicas de trabajo más relevantes. En ella, podemos evaluar la producción máxima de baldosas cerámicas, la cual corresponde a 28 baldosas por minuto, basada en dos baldosas por ciclo. Para el caso del gres porcelánico, debemos considerar que el proceso de prensado requiere un tiempo aproximadamente un 30% mayor. Esto se debe a que este producto necesita una mayor compactación y presión, lo que lo hace más resistente e impermeable debido a su textura más sólida.
 
 ![Imagenes](./Imagenes/Tabla%20produccion%20prensado.png).
 
-###Tabla 1 Especificaciones de producción prensado.
+### Tabla 1 Especificaciones de producción prensado.
 
 Por otra parte, se plantea realizar el análisis de una línea de producción que nos permite fabricar las tres referencias de baldosas mencionadas. Para lograr esto, los equipos seleccionados permiten realizar cambios de herramientas específicos para cada referencia. En el caso del prensado, la prensa, gracias al clearance, ofrece la versatilidad de implementar moldes de diferentes tamaños con un diseño de punzón entrante (Figura 2). Esto permite la flexibilidad en el montaje de los productos, ya sea cara hacia arriba o cara hacia abajo, y agiliza el proceso.
 
 ![Imagenes](./Imagenes/Molde.png).
 
-###Figura 2 molde punzon entrante cortesia SACMI
+### Figura 2 molde punzon entrante cortesia SACMI
 
 
+
+### Esmaltadora
+El esmaltado consiste en la aplicación por distintos métodos de una o varias capas de vidriado con un espesor comprendido entre 75-500 micras en total, que cubre la superficie de la pieza. Este tratamiento se realiza para conferir al producto cocido una serie de propiedades técnicas y estéticas, tales como: impermeabilidad, facilidad de limpieza, brillo, color, textura superficial y resistencia química y mecánica. Existen una variedad de esmaltes categorizados por temperatura, composición entre otros. 
+
+Las técnicas de esmaltado a nivel industrial más usadas para la esmaltación de baldosas son: esmaltado por camapana, airless y filera. La planta actual usa una esmaltadora de campana de dimensiones 1280x1280x2010 mm de la marca española FORO para esmaltar las baldosas. Esta tiene un ritmo de producción de piezas de 17 baldosas por minuto en promedio.
+
+![Imagenes](./Imagenes/esmaltadora_campana.png).
+
+Se busca reemplazarla por una esmaltadora de filera o velo que permite, mediante el control de la bomba y la aspersión, esmaltar más piezas en menor tiempo. Por esto se seleccionó la esmaltadora MASTERFALL de la compañia italiana Airless Italia, esta esmaltadora mediante sus roceadores permite la aplicación más rápida del esmalte llegando a un ritmo de producción de aproximadamente 30 baldosas por minuto. También permite mediante el controlador de flujo automático Controlflux la repetibilidad.
+
+![Imagenes](./Imagenes/esmaltadora_waterfall.png).
 
 ## EDT 
 Con el fin de conocer a fondo el proceso de producción de baldosas e identificar aquellas partes del proceso a mejorar y así optimizar la línea de producción se crea el EDT (Figura 3)orientado a la programación y entregables:
 
 ![Imagenes](./Imagenes/EDT.png).
 
-###Figura 3 EDT
+### Figura 3 EDT
 
 En el cual se muestra el cronograma de actividades y responsables de cada una de las actividades en la primera fase de entrega el cual es como una fase investigativa y argumentativa del proceso de producción, que  nos lleva hacia la identificación de la estación de trabajo que mediante nuestra propuesta de valor se busca optimizar mediante la automatización del proceso.
 
