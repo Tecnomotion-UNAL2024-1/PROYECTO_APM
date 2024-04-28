@@ -11,6 +11,8 @@ Somos Tecnomotion, un equipo a cargo del curso de Automatización de Procesos de
 
 
 ## Descripción del Proyecto
+El proyecto se centra en diseñar y simular una planta automatizada para la producción de baldosas cerámicas, utilizando tecnologías como la robótica y sistemas de control industrial. El objetivo es mejorar la eficiencia del proceso de fabricación y fomentar la sostenibilidad,  implementando sistemas automatizados en tres procesos clave en la línea de producción y en al menos uno de ellos se propone la instalación de una celda robótica. Este trabajo permitirá aplicar los conocimientos adquiridos en el curso de Automatización de Procesos de Manufactura, desarrollando habilidades técnicas y blandas relevantes para el ambiente laboral actual.
+
 ## Planta de producción de baldosa cerámica TECNOMOTION.
 El desarrollo de la construcción ha sido una necesidad primordial para la humanidad, ya que implica la creación de espacios para llevar a cabo actividades cotidianas como trabajar, estudiar y vivir. Estos espacios deben estar diseñados de manera adecuada para proporcionar comodidad y condiciones óptimas para cada función específica. Por ello, la fabricación de cerámica ofrece una amplia gama de productos que no solo añaden armonía y belleza a los ambientes, sino que también proporcionan propiedades específicas de durabilidad y resistencia, adaptadas a las condiciones de uso, ya sea en interiores o exteriores, así como en entornos residenciales o industriales. Esto implica directamente la resistencia al desgaste y a la humedad.
 Teniendo en cuenta lo anterior, se definen tres líneas principales de productos a producir, que son:
@@ -277,24 +279,24 @@ En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo d
 
 
 
-### Gestión de Producción y Automatización
+## Gestión de Producción y Automatización
 
-#### VSM(Actual)
+### VSM(Actual)
 
 ![Imagenes](./Imagenes/VSM(propuesta).png)
 
 
-### Industria 4.0 en la Automatización
+## Industria 4.0 en la Automatización
 
 ![Imagenes](./Imagenes/ArqComu.png)
 
-### Planeación del Proyecto
+## Planeación del Proyecto
 
 - Cronograma del proyecto realizado en alguna herramienta de software como CRM Bitrix24, Microsoft Project o alguna herramienta de planeación de proyectos. Es importante actualizar el cronograma en caso de cambios.
 
 ### Evaluación Económica de Proyectos
 
-#### Análisis de mercado
+### Análisis de mercado
 
 En Colombia, la industria de la producción de cerámicos enfrenta un panorama complejo para el año 2024. 
 
@@ -310,7 +312,20 @@ Si tomamos como base una línea de producción con prensa trabajando 3 turnos de
 
 
 
-### Celda de Manufactura Robotizada
+## Celda de Manufactura Robotizada
+
+### Propuesta de automatización
+
+1. Se propone la implementación de un sistema de control de calidad automatizado en el proceso de clasificación de baldosas cerámicas. Este sistema empleará tecnología de visión artificial y clasificación óptica para examinar minuciosamente cada baldosa y separarlas de acuerdo con sus características y niveles de calidad.
+Actualmente, el proceso de clasificación es realizado de manera manual por operarios. Sin embargo, esta metodología presenta limitaciones en cuanto a la capacidad de mantener una precisión constante y una velocidad de clasificación óptima a lo largo del tiempo. Los seres humanos tienden a fatigarse, lo que puede resultar en errores y variaciones en la calidad de la clasificación.
+La implementación de la máquina de control de calidad automatizada permitirá superar estas limitaciones, mejorando significativamente la eficiencia y el rendimiento general del proceso de producción de baldosas cerámicas.
+2. Con el objetivo de optimizar el proceso de esmaltado y lograr un acabado de mayor calidad, se implementarán mejoras tecnológicas que aumentarán la eficiencia y permitirán una aplicación más uniforme y controlada del esmalte. Se planea adoptar equipos de esmaltado automatizados que reemplazarán el método actual.
+En la actualidad, el esmaltado se realiza mediante una máquina de esmaltado por campana, la cual presenta limitaciones en cuanto a la uniformidad y el control del proceso. Para superar estas deficiencias, se propone sustituir esta máquina por una de esmaltado por velo con controlador.
+Este nuevo equipo automatizado permitirá una aplicación más precisa y homogénea del esmalte sobre la pieza, garantizando un acabado de mayor calidad y consistencia. Además, al contar con un sistema de control integrado, se podrán ajustar y monitorear los parámetros del proceso de manera más eficiente, optimizando el uso de materiales y reduciendo el desperdicio.
+3. En el proceso de paletizado, la tarea manual presenta varias desventajas que pueden impactar negativamente en la eficiencia y precisión. La capacidad limitada de los trabajadores para manipular grandes volúmenes de baldosas puede conducir a errores y variaciones en la disposición de las piezas sobre los palets.
+Por ello, se propone incorporar una celda robótica automatizada para el paletizado, lo cual conllevará mejoras significativas. Los robots industriales poseen la capacidad de manejar grandes cantidades de baldosas de forma rápida y precisa, optimizando su acomodo en los palets y reduciendo la posibilidad de errores propios de la operación manual.
+
+#### Hoja ruta - Celda robótica
 
 - Análisis para justificar una robotización y el valor agregado del uso del robot en el proceso.
 - Diseño de celda robotizada considerando relación con espacio, flujo de producto, interacción con personal, seguridad funcional y agarre del robot.
