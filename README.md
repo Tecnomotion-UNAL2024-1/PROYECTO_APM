@@ -10,10 +10,10 @@ Somos Tecnomotion, un equipo a cargo del curso de Automatización de Procesos de
 - Danilo Enrique Insuasty Delgado
 
 
-## Descripción del Proyecto
+## 1.Descripción del Proyecto
 El proyecto se centra en diseñar y simular una planta automatizada para la producción de baldosas cerámicas, utilizando tecnologías como la robótica y sistemas de control industrial. El objetivo es mejorar la eficiencia del proceso de fabricación y fomentar la sostenibilidad,  implementando sistemas automatizados en tres procesos clave en la línea de producción y en al menos uno de ellos se propone la instalación de una celda robótica. Este trabajo permitirá aplicar los conocimientos adquiridos en el curso de Automatización de Procesos de Manufactura, desarrollando habilidades técnicas y blandas relevantes para el ambiente laboral actual.
 
-## Planta de producción de baldosa cerámica TECNOMOTION.
+## 2. Planta de producción de baldosa cerámica TECNOMOTION.
 El desarrollo de la construcción ha sido una necesidad primordial para la humanidad, ya que implica la creación de espacios para llevar a cabo actividades cotidianas como trabajar, estudiar y vivir. Estos espacios deben estar diseñados de manera adecuada para proporcionar comodidad y condiciones óptimas para cada función específica. Por ello, la fabricación de cerámica ofrece una amplia gama de productos que no solo añaden armonía y belleza a los ambientes, sino que también proporcionan propiedades específicas de durabilidad y resistencia, adaptadas a las condiciones de uso, ya sea en interiores o exteriores, así como en entornos residenciales o industriales. Esto implica directamente la resistencia al desgaste y a la humedad.
 Teniendo en cuenta lo anterior, se definen tres líneas principales de productos a producir, que son:
 
@@ -279,14 +279,14 @@ En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo d
 
 
 
-## Gestión de Producción y Automatización
+##  3. Gestión de Producción y Automatización
 
 ### VSM(Actual)
 
 ![Imagenes](./Imagenes/VSM(propuesta).png)
 
 
-## Industria 4.0 en la Automatización
+## 4. Industria 4.0 en la Automatización
 
 ![Imagenes](./Imagenes/ArqComu.png)
 
@@ -294,9 +294,9 @@ En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo d
 
 - Cronograma del proyecto realizado en alguna herramienta de software como CRM Bitrix24, Microsoft Project o alguna herramienta de planeación de proyectos. Es importante actualizar el cronograma en caso de cambios.
 
-### Evaluación Económica de Proyectos
+### 5.Evaluación Económica de Proyectos
 
-### Análisis de mercado
+### 6.Análisis de mercado
 
 En Colombia, la industria de la producción de cerámicos enfrenta un panorama complejo para el año 2024. 
 
@@ -312,9 +312,9 @@ Si tomamos como base una línea de producción con prensa trabajando 3 turnos de
 
 
 
-## Celda de Manufactura Robotizada
+## 8. Celda de Manufactura Robotizada
 
-### Propuesta de automatización
+### 9. Propuesta de automatización
 
 1. Se propone la implementación de un sistema de control de calidad automatizado en el proceso de clasificación de baldosas cerámicas. Este sistema empleará tecnología de visión artificial y clasificación óptica para examinar minuciosamente cada baldosa y separarlas de acuerdo con sus características y niveles de calidad.
 Actualmente, el proceso de clasificación es realizado de manera manual por operarios. Sin embargo, esta metodología presenta limitaciones en cuanto a la capacidad de mantener una precisión constante y una velocidad de clasificación óptima a lo largo del tiempo. Los seres humanos tienden a fatigarse, lo que puede resultar en errores y variaciones en la calidad de la clasificación.
@@ -332,13 +332,20 @@ Por ello, se propone incorporar una celda robótica automatizada para el paletiz
 - Modelo de la celda en RobotStudio con el diseño, programación y animación de movimientos. Un video que contenga una simulación de movimientos en la celda.
 - Identificación de peligros y gestión del riesgo, análisis de riesgos inicial, medidas propuestas para mitigación del riesgo y evaluación de riesgos con las medidas aplicadas.
 - 
-  ### DISEÑO DE CELDA ROBÓTICA
+  ### 10. DISEÑO DE CELDA ROBÓTICA
+
+  Para el diseño de la celda robótica se parte de considerar el tamaño de las cajas y el peso de cada una de las referencias las cuales son:
+    •	60x31x80 cm, 27.5 Kg.
+    •	60x60x42 cm, 17.5 Kg Cerámico de interiores.
+    •	45x45x60 cm, 20.8 Kg.  Gres porcelanico.
+Teniendo en cuenta que el suministro de baldosas a la zona de paletizado se hace en bloques de dos cajas, podemos determinar la capacidad máxima de carga a manipular (55KG) por el robot basados en la de mayor peso.
+![Imagenes](./Imagenes/Veloce%20PH8200.png).
   
 
 
 
 
-### Digital Factory
+### 11. Digital Factory
 <p align="center">
   <a target="_blank" rel="noreferrer">
     <img width="500px" src="https://github.com/Tecnomotion-UNAL2024-1/PROYECTO_APM/blob/main/Imagenes/Plano.png"/>
@@ -359,7 +366,7 @@ El siguiente paso será traducir estas secuencias de operación modeladas en NX 
   </a>
 </p>
 
-### Controladores Industriales (PLC)
+###  Controladores Industriales (PLC)
 
 - En GitHub, explicar cómo se desglosó el problema de control secuencial estableciendo operación, etapas, transiciones y modos, realizando una apropiada implementación en lógica programada (Grafcet y Ladder).
 - Identificar posibles puntos de aplicación de actuadores (neumáticos, hidráulicos o eléctricos) dentro del proyecto de automatización.
