@@ -10,10 +10,10 @@ Somos Tecnomotion, un equipo a cargo del curso de Automatización de Procesos de
 - Danilo Enrique Insuasty Delgado
 
 
-## Descripción del Proyecto
+## 1.Descripción del Proyecto
 El proyecto se centra en diseñar y simular una planta automatizada para la producción de baldosas cerámicas, utilizando tecnologías como la robótica y sistemas de control industrial. El objetivo es mejorar la eficiencia del proceso de fabricación y fomentar la sostenibilidad,  implementando sistemas automatizados en tres procesos clave en la línea de producción y en al menos uno de ellos se propone la instalación de una celda robótica. Este trabajo permitirá aplicar los conocimientos adquiridos en el curso de Automatización de Procesos de Manufactura, desarrollando habilidades técnicas y blandas relevantes para el ambiente laboral actual.
 
-## Planta de producción de baldosa cerámica TECNOMOTION.
+## 2. Planta de producción de baldosa cerámica TECNOMOTION.
 El desarrollo de la construcción ha sido una necesidad primordial para la humanidad, ya que implica la creación de espacios para llevar a cabo actividades cotidianas como trabajar, estudiar y vivir. Estos espacios deben estar diseñados de manera adecuada para proporcionar comodidad y condiciones óptimas para cada función específica. Por ello, la fabricación de cerámica ofrece una amplia gama de productos que no solo añaden armonía y belleza a los ambientes, sino que también proporcionan propiedades específicas de durabilidad y resistencia, adaptadas a las condiciones de uso, ya sea en interiores o exteriores, así como en entornos residenciales o industriales. Esto implica directamente la resistencia al desgaste y a la humedad.
 Teniendo en cuenta lo anterior, se definen tres líneas principales de productos a producir, que son:
 
@@ -279,7 +279,7 @@ En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo d
 
 
 
-## Gestión de Producción y Automatización
+##  3. Gestión de Producción y Automatización
 
 ### VSM (Actual)
 
@@ -294,7 +294,7 @@ Según las observaciones realizadas mediante las simulaciones y el análisis de 
 ![Imágenes](./Imagenes/VSM_propuesta_V2.png)
 
 
-## Industria 4.0 en la Automatización
+## 4. Industria 4.0 en la Automatización
 
 ![Imagenes](./Imagenes/ArqComu.png)
 
@@ -302,9 +302,15 @@ Según las observaciones realizadas mediante las simulaciones y el análisis de 
 
 - Cronograma del proyecto realizado en alguna herramienta de software como CRM Bitrix24, Microsoft Project o alguna herramienta de planeación de proyectos. Es importante actualizar el cronograma en caso de cambios.
 
-### Evaluación Económica de Proyectos
+## 5.Evaluación Económica de Proyectos
 
-### Análisis de mercado
+El proyecto para la producción de baldosas cerámicas en Bogotá, requiere una inversión inicial de $550,000,000. Esperamos generar ingresos anuales de $21,346,464,129 a lo largo del proyecto. Los principales gastos mensuales incluyen materia prima ($8,538,585,652), energía ($5,187,268,759), salarios ($399,126,000) y el arriendo mensual de la planta ($385,000,000).
+
+Durante el primer mes, incurriremos en un costo operativo negativo debido a la inversión inicial y los gastos operativos, en donde la producción parará completamente mientras se realiza la instalación de equipos y su respectiva remodelación. A partir del segundo mes, esperamos ingresos mensuales de $1,778,872,011 contra costos operativos de $1,562,081,701, resultando en un flujo de efectivo neto positivo de $216,790,310 mensuales. Con estos flujos de efectivo, calculamos un Valor Presente Neto (VPN) de $61,662,418.13 y una Tasa Interna de Retorno (TIR) del 5%. Según nuestras proyecciones, recuperaremos nuestra inversión inicial en aproximadamente 15 meses.
+
+![Imagenes](./4.%20Evaluación%20económica%20del%20Proyecto/Amortización.png)
+
+## 6.Análisis de mercado
 
 En Colombia, la industria de la producción de cerámicos enfrenta un panorama complejo para el año 2024. 
 
@@ -320,9 +326,9 @@ Si tomamos como base una línea de producción con prensa trabajando 3 turnos de
 
 
 
-## Celda de Manufactura Robotizada
+## 8. Celda de Manufactura Robotizada
 
-### Propuesta de automatización
+## 9. Propuesta de automatización
 
 1. Se propone la implementación de un sistema de control de calidad automatizado en el proceso de clasificación de baldosas cerámicas. Este sistema empleará tecnología de visión artificial y clasificación óptica para examinar minuciosamente cada baldosa y separarlas de acuerdo con sus características y niveles de calidad.
 Actualmente, el proceso de clasificación es realizado de manera manual por operarios. Sin embargo, esta metodología presenta limitaciones en cuanto a la capacidad de mantener una precisión constante y una velocidad de clasificación óptima a lo largo del tiempo. Los seres humanos tienden a fatigarse, lo que puede resultar en errores y variaciones en la calidad de la clasificación.
@@ -340,18 +346,93 @@ Por ello, se propone incorporar una celda robótica automatizada para el paletiz
 - Modelo de la celda en RobotStudio con el diseño, programación y animación de movimientos. Un video que contenga una simulación de movimientos en la celda.
 - Identificación de peligros y gestión del riesgo, análisis de riesgos inicial, medidas propuestas para mitigación del riesgo y evaluación de riesgos con las medidas aplicadas.
 - 
-  ### DISEÑO DE CELDA ROBÓTICA
-  
+  ### 10. DISEÑO DE CELDA ROBÓTICA
+
+  Para el diseño de la celda robótica se parte de considerar el tamaño de las cajas y el peso de cada una de las referencias las cuales son:
+    •	60x31x80 cm, 27.5 Kg.
+    •	60x60x42 cm, 17.5 Kg Cerámico de interiores.
+    •	45x45x60 cm, 20.8 Kg.  Gres porcelanico.
+Teniendo en cuenta que el suministro de baldosas a la zona de paletizado se hace en bloques de dos cajas, podemos determinar la capacidad máxima de carga a manipular (55KG) por el robot basados en la de mayor peso.
+
+![Imagenes](./Imagenes/Europalet.png).
+
+Por otra parte, basado en información de referencia de las empresas de baldosas encontramos que ellos suelen usar palets que cumplen la norma europea; eruopalet o EPAL estándar de 1200x800 mm figura 10.1, con el cual teniendo en cuenta las dimensiones y el peso de las cajas de las baldosas determinamos tanto la cantidad como la distribución para ser paletizado según la referencia. Para el caso de la caja de baldosa 60x31x80cm, se hace el respectivo modelado de la distribución y cantidad de cajas en el palet, figura 10.2.
+
+  ![Imagenes](./Imagenes/Palet%20baldosas%2060x31.png).
+
+Este modelado nos permite saber la distancia más lejana en la que se debe ubicar una de las cajas, de tal manera que ya conociendo el peso máximo a manipular y el alcance máximo por medio del catálogo del fabricante de robots ABB hacemos la selección del robot que se adapta a nuestras necesidades, el cual es el robot IRB570, figura 10.3 que tiene una capacidad de carga de hasta 70Kg con un radio máximo de envolvente de 2.3 metros ficha técnica anexo 3.
+
+![Imagenes](./Imagenes/IRB570.png).
+
+Una de las particularidades de seleccionar el robot de 6 grados de libertad es la posibilidad de poder manipular las cajas que vienen en sentido horizontal y ubicarlas en el palet de manera vertical con eso ahorramos tiempo y eliminamos un paso en el alinea de proceso al tener que cambiarlas de sentido antes de poetizar.
+Por otra parte, con el fin de optimizar el tiempo en paletizado se propone hacer alimentación de estibas automáticamente, de tal manera que los palets se encuentras en columna vertical y una vez se requiere son alimentados por una banda transportadora la cual fue es modelada figura 10.4 ya que requiere unas condiciones especiales de carga y movimiento para transportar el palet tanto vació como cargado.
+
+![Imagenes](./Imagenes/Bandaestibas.png).
+
+La celda robótica comprende doble alimentador de estibas uno derecho y uno izquierdo los cueles son modelados y se muestran en la figura 10.5 con el fin de que mientras el robot paletiza una estiba y termina pueda ir a seguir paletizando la estiba que se encuentra en la banda transportadora contraria mientras la estiba cargada es movida hacia la salida y se alimenta una nuevo palet vació.
+
+![Imagenes](./Imagenes/Bandasdi.png).
+
+Una vez modelado se hace la implementacion de la celda robótica en RobotStudio figura 10.6 el cual se coloca la banda de alimentación de producto y las bandas de alimentación de estibas automáticamente.
+
+![Imagenes](./Imagenes/celdarobotstudio.png).
+
+En términos de seguridad cuanta con un encerramiento en malla que delimita el área de trabajo, existen 4 puntos de carga y descargue para el montacargas los cuales en la entrada tienen cortinas de seguridad.
+
+El único ingreso a la celda robótica par ale personal autorizado se hace por medio de una puerta en la parte posterior la cual también cuenta con interlock para seguridad que nadie vaya a ingresar mientras la celda está en operación.
+
+En cuanto a la programación de la celda en RobotStudio se hizo mediante el  uso de smartcomponent figura 10.7 el cual permite trabajar con bloques de programación con el fin de poder llevar una lógica que se permite interconectar de manera efectiva las entradas y salidas de los equipos que intervienen en la celda.
+
+![Imagenes](./Imagenes/Programacionrobot.png).
+
+
+La automatización de la celda parte de que las bandas transportadoras sean automáticas, para el caso de la banda transportadora que alimenta las cajas se implementa un timer el cual genera baldosas cada 10 segundos.
+La banda se detiene una vez al final una caja llega al final de la banda y es detectada por un sensor de presencia, el cual envía una señal y activa la rutina de cargue de la caja, transporte al palet y descargue de la caja, retornando a su punto de inicio nuevamente a la espera de un nuevo producto para transportar.
+Una vez se detecta una nueva caja en la banda repite el ciclo con la diferencia que cambia la ubicación de destino donde dejara la caja y así lo repite una y otra vez el ciclo hasta completar el número de cajas total en el palet.
+Una vez lleno el palet de un lado e robot inicia paletizado en la banda transportadora opuesta mientras se transporta el palet que se completó y se ubica un palet vació.
+Así se mantiene el proceso cíclicamente y se detendrá hasta que el controlador de la señal de parada se active un sensor de seguridad y existiendo alguna vulneración al espacio de la celda.
 
 
 
 
-### Digital Factory
 
-- En GitHub, colocar el enlace en YouTube del video de Siemens NX: Video del prototipo del Software Siemens NX evidenciando el respectivo modelamiento y configuración que represente la secuencia y lógica de funcionamiento del sistema, integrando sensores y actuadores virtuales.
+
+
+
+
+### 11. Digital Factory
+<p align="center">
+  <a target="_blank" rel="noreferrer">
+    <img width="500px" src="https://github.com/Tecnomotion-UNAL2024-1/PROYECTO_APM/blob/main/Imagenes/Plano.png"/>
+  </a>
+</p>
+Hemos desarrollado un modelo tridimensional de las instalaciones de la planta de cerámica. En este modelo se muestra la distribución propuesta de las nuevas máquinas y equipos que formarán parte del proceso de automatización. Esta nueva disposición tiene como objetivo principal mejorar y optimizar los flujos de producción actuales, incrementando la eficiencia operativa de toda la planta. El modelo 3D permitirá visualizar de manera precisa la ubicación y el funcionamiento integrado de cada una de las máquinas automatizadas planificadas para su posterior instalación en las distintas áreas de la fábrica.
+<p align="center">
+  <a target="_blank" rel="noreferrer">
+    <img width="500px" src="https://github.com/Tecnomotion-UNAL2024-1/PROYECTO_APM/blob/main/Imagenes/planta%20v46.png"/>
+  </a>
+</p>
+Posteriormente, se importó el modelo 3D a Siemens NX, en este entorno, se configuraron los parámetros físicos del modelo, incluyendo las propiedades de los objetos, las uniones y restricciones cinemáticas, así como la definición de sensores y actuadores que emularán el funcionamiento real de la planta. 
+Como parte inicial de la programación del sistema de control, se implementó una rutina de operación en el editor de secuencias de Siemens NX. Esta rutina representa el flujo de procesos que se llevará a cabo en la planta automatizada. En el video adjunto, se puede observar la simulación de dichas rutinas previamente definidas.
+El siguiente paso será traducir estas secuencias de operación modeladas en NX al código de programación del controlador lógico programable (PLC) que gobernará el sistema de automatización real. La simulación previa en el entorno virtual facilita esta tarea de implementación, al brindar una representación dinámica y funcional que permite validar y ajustar la programación antes de su puesta en marcha definitiva.
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=vMbRP_F7hY4" target="_blank" rel="noreferrer">
+    <img width="500px" src="https://github.com/Tecnomotion-UNAL2024-1/PROYECTO_APM/blob/main/Imagenes/video.png"/>
+  </a>
+</p>
+Posteriormente, se estableció una conexión entre el software TIA Portal de Siemens y el entorno de simulación Siemens NX. Esto permitió comprobar el funcionamiento del controlador lógico programable (PLC) de manera virtual, previo a su implementación física real.
+La conexión se realizó de forma exitosa, logrando vincular el PLC virtual con el modelo 3D de la planta. Como prueba inicial, se programó y simuló la operación de la banda transportadora que conecta el silo de almacenamiento con la prensa de producción.
+Si bien la intención original era implementar la rutina completa de toda la planta automatizada durante esta fase, debido a limitaciones de tiempo, se propone continuar esta tarea utilizando el software Studio 5000 de Rockwell Automation. En este entorno ya se desarrolló un programa de control general, siguiendo la lógica y secuencia de operaciones planteada inicialmente en Siemens NX. Ver en el siguiente video:
+<p align="center">
+  <a href="https://youtu.be/3ZzicSJprcc" target="_blank" rel="noreferrer">
+    <img width="500px" src="https://github.com/Tecnomotion-UNAL2024-1/PROYECTO_APM/blob/main/Imagenes/APM5.png"/>
+  </a>
+</p>
+
 
 ### Controladores Industriales (PLC)
 #### Análisis y Esquemas Grafcet
+
 
 Para la implementación del controlador industrial se realizó un estudio de las etapas por las que pasa un producto en las diferentes estaciones y las dependencias. Partiendo de la línea de producción de forma secuencial, incluyendo medios de transporte, tenemos:
 
