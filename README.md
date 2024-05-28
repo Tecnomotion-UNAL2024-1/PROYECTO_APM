@@ -281,6 +281,10 @@ En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo d
 
 ##  3. Gestión de Producción y Automatización
 
+### Horarios Operarios
+
+![Imagenes](./Imagenes/Horarios%20de%20operarios.png)
+
 ### VSM (Actual)
 
 Para una planta de una línea con capacidad de modificar sus parámetros para adaptarla a 3 posibles productos, consta de una línea de procesos como se presenta en:
