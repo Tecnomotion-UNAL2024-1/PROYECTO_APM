@@ -431,6 +431,34 @@ Si bien la intención original era implementar la rutina completa de toda la pla
 
 
 ### Controladores Industriales (PLC)
+#### Hoja de ruta sensorica, Ladder y PLC
+
+1. Planteamiento de los sensores a usar:
+   - Proceso: Se realizará un estudio para determinar qué sensores usar en la planta. Esto se basará en el nivel de detalle deseado, la disposición de la planta, la automatización planeada y la producción deseada.
+   - Requisitos: Disposición de la planta (nivel de detalle medio en qué máquinas se usan, cuántas y cómo funcionan), automatización planeada (énfasis medio en producción, funcionamiento de las máquinas, desplazamiento de productos y cantidad según el tiempo).
+
+2. Planteamiento de los diagramas de flujo por maquinaria según el método paso a paso:
+   - Proceso: Se realizará un diagrama de flujo por método paso a paso para definir estados de la máquina y sus activadores. Esto representará el funcionamiento de cada máquina y los sensores asociados para modificar los estados de la máquina.
+   - Requisitos: Sensores planteados, máquinas y su funcionamiento.
+
+3. Estructuración de los diagramas de flujo enfocados en GRAFCET:
+   - Proceso: Se reestructurarán los diagramas de flujo y se enfocarán en el estilo GRAFCET para lograr una mejor integración y comprensión del código.
+   - Requisitos: Diagramas de flujo método paso a paso.
+
+4. Desarrollo de los códigos ladder:
+   - Proceso: Con base en el esquema enfocado en GRAFCET, se plantearán los esquemas en Studio 5000. Se usará subrutinas y saltos (JSR) para implementar un código principal (rutina main) en un PLC simulado con Logix Emulate, con la intención de simular el PLC virtual.
+   - Requisito: Diagrama enfocado en GRAFCET.
+
+5. Según necesidad, selección de los PLC DCS o PAC a usar:
+   - Proceso: Se investigarán PLC capaces de cumplir con los requisitos y se seleccionarán los correspondientes, basándose en los requisitos del PLC, análisis de tiempos de rutinas, sensores seleccionados y análisis de potencia para los complementos.
+   
+6. Análisis de seguridad:
+   - Proceso: En base a los PLC elegidos, el código y el proceso, se realizará una consideración para sistemas redundantes y seguros con sensores y actuadores enfocados en la seguridad del entorno.
+
+7. Reestructuración enfocada en seguridad y presupuesto:
+   - Proceso: Si se requieren modificaciones basadas en la seguridad junto con consideraciones económicas, se discutirán estas modificaciones. Se espera que sean menores.
+   - Requisitos: Análisis de seguridad y apoyo del análisis económico.
+
 #### Análisis y Esquemas Grafcet
 
 
