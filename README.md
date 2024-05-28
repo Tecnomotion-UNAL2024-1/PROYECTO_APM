@@ -345,7 +345,9 @@ Hemos desarrollado un modelo tridimensional de las instalaciones de la planta de
     <img width="500px" src="https://github.com/Tecnomotion-UNAL2024-1/PROYECTO_APM/blob/main/Imagenes/plantaCeramicaFisica5.png"/>
   </a>
 </p>
-
+Posteriormente, se importó el modelo 3D a Siemens NX, en este entorno, se configuraron los parámetros físicos del modelo, incluyendo las propiedades de los objetos, las uniones y restricciones cinemáticas, así como la definición de sensores y actuadores que emularán el funcionamiento real de la planta. 
+Como parte inicial de la programación del sistema de control, se implementó una rutina de operación en el editor de secuencias de Siemens NX. Esta rutina representa el flujo de procesos que se llevará a cabo en la planta automatizada. En el video adjunto, se puede observar la simulación de dichas rutinas previamente definidas.
+El siguiente paso será traducir estas secuencias de operación modeladas en NX al código de programación del controlador lógico programable (PLC) que gobernará el sistema de automatización real. La simulación previa en el entorno virtual facilita esta tarea de implementación, al brindar una representación dinámica y funcional que permite validar y ajustar la programación antes de su puesta en marcha definitiva.
 <p align="center">
   <a href="https://www.youtube.com/watch?v=vMbRP_F7hY4" target="_blank" rel="noreferrer">
     <img width="500px" src="https://github.com/Tecnomotion-UNAL2024-1/PROYECTO_APM/blob/main/Imagenes/video.png"/>
