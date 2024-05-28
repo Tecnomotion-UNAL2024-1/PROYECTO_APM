@@ -302,9 +302,15 @@ Según las observaciones realizadas mediante las simulaciones y el análisis de 
 
 - Cronograma del proyecto realizado en alguna herramienta de software como CRM Bitrix24, Microsoft Project o alguna herramienta de planeación de proyectos. Es importante actualizar el cronograma en caso de cambios.
 
-### 5.Evaluación Económica de Proyectos
+## 5.Evaluación Económica de Proyectos
 
-### 6.Análisis de mercado
+El proyecto para la producción de baldosas cerámicas en Bogotá, requiere una inversión inicial de $550,000,000. Esperamos generar ingresos anuales de $21,346,464,129 a lo largo del proyecto. Los principales gastos mensuales incluyen materia prima ($8,538,585,652), energía ($5,187,268,759), salarios ($399,126,000) y el arriendo mensual de la planta ($385,000,000).
+
+Durante el primer mes, incurriremos en un costo operativo negativo debido a la inversión inicial y los gastos operativos, en donde la producción parará completamente mientras se realiza la instalación de equipos y su respectiva remodelación. A partir del segundo mes, esperamos ingresos mensuales de $1,778,872,011 contra costos operativos de $1,562,081,701, resultando en un flujo de efectivo neto positivo de $216,790,310 mensuales. Con estos flujos de efectivo, calculamos un Valor Presente Neto (VPN) de $61,662,418.13 y una Tasa Interna de Retorno (TIR) del 5%. Según nuestras proyecciones, recuperaremos nuestra inversión inicial en aproximadamente 15 meses.
+
+![Imagenes](./4.%20Evaluación%20económica%20del%20Proyecto/Amortización.png)
+
+## 6.Análisis de mercado
 
 En Colombia, la industria de la producción de cerámicos enfrenta un panorama complejo para el año 2024. 
 
@@ -322,7 +328,7 @@ Si tomamos como base una línea de producción con prensa trabajando 3 turnos de
 
 ## 8. Celda de Manufactura Robotizada
 
-### 9. Propuesta de automatización
+## 9. Propuesta de automatización
 
 1. Se propone la implementación de un sistema de control de calidad automatizado en el proceso de clasificación de baldosas cerámicas. Este sistema empleará tecnología de visión artificial y clasificación óptica para examinar minuciosamente cada baldosa y separarlas de acuerdo con sus características y niveles de calidad.
 Actualmente, el proceso de clasificación es realizado de manera manual por operarios. Sin embargo, esta metodología presenta limitaciones en cuanto a la capacidad de mantener una precisión constante y una velocidad de clasificación óptima a lo largo del tiempo. Los seres humanos tienden a fatigarse, lo que puede resultar en errores y variaciones en la calidad de la clasificación.
