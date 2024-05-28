@@ -285,13 +285,13 @@ En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo d
 
 Para una planta de una línea con capacidad de modificar sus parámetros para adaptarla a 3 posibles productos, consta de una línea de procesos como se presenta en:
 
-![Imágenes](./Imagenes/VSM_actual_V2.png)
+![Imagenes](./Imagenes/VSM_actual_V2.png)
 
 ### VSM (Propuesta)
 
 Según las observaciones realizadas mediante las simulaciones y el análisis de la planta actual, se logró divisar que el principal cuello de botella se encuentra en la parte de revisión o clasificación, y en la parte de embalaje y paletizado. En base a esto, se propone el siguiente Mapa de flujo de valor (Value Stream Map):
 
-![Imágenes](./Imagenes/VSM_propuesta_V2.png)
+![Imagenes](./Imagenes/VSM_propuesta_V2.png)
 
 
 ## 4. Industria 4.0 en la Automatización
@@ -446,30 +446,37 @@ En este desglose simple de señales por maquinaria, incluyendo maquinarias de tr
 
 - Silo de almacenamiento de materia prima:
 En esta etapa, partimos de que el silo suministra materia prima mediante un dispensador, el cual se activa mediante un temporizador. Finalizado ese tiempo, se activa el transporte de salida, se detectan los sensores de salida y se repite el proceso de forma continua. Con lo que tenemos:
+
 ![Imagenes](./Imagenes/Grafcet_Silo.png)
 
 - Prensa de materia prima:
 En esta etapa, tomamos la materia prima, la cual es un polvo o una mezcla granular que ingresa en múltiples etapas de suministrado. Por lo que para este paso se hace uso de un contador que cuenta cuántas veces ha ingresado una tanda de materia prima a la prensa antes del prensado. Luego se realiza el prensado, que se mide en tiempo, por lo cual el prensado posee un temporizador. Al finalizar, tenemos la salida de la materia prima y el proceso vuelve a empezar desde el reinicio del contador:
+
 ![Imagenes](./Imagenes/Grafcet_Prensa.png)
 
 - Secado de material comprimido:
 En esta etapa, es necesario retirar la humedad presente en la materia prima comprimida. Para esto, se usa un secador. En este caso, se usa un secador continuo lineal en el cual la materia prima comprimida entra en un horno con temperaturas bajas y corto tiempo. Dentro del horno, hay bandas transportadoras que continuamente desplazan la materia comprimida desde la entrada a la salida. Este proceso es más simple porque solo se enciende el horno, se obtiene la temperatura objetivo e ingresa continuamente material. Por lo tanto, tenemos:
+
 ![Imagenes](./Imagenes/Grafcet_Secadora.png)
 
 - Engobe de baldosa:
 En esta etapa, tenemos una máquina que recibe la baldosa, aplica una capa de engobe a cada baldosa. Esta etapa recibe el material, activa el proceso, termina el proceso de aplicación de engobe, luego se detiene el proceso, reactiva el paso de la baldosa a la siguiente etapa, recibe otra baldosa sin engobe y vuelve a hacer el proceso. Con lo que tenemos:
+
 ![Imagenes](./Imagenes/Grafcet_Esmaltadora.png)
 
 - Impresión o aplicación de patrón de color:
 En esta etapa, tenemos la aplicación del color mediante la impresora. Esta etapa, si bien es un proceso diferente, su funcionamiento secuencial es equivalente al de la esmaltadora. Por lo tanto, tenemos un esquema similar:
+
 ![Imagenes](./Imagenes/Grafcet_Impresora.png)
 
 - Esmaltado de baldosa:
 En esta etapa, aplicamos la última capa de material sobre la baldosa, este es el esmalte. Este proceso es exactamente el mismo que el de engobe, ya que se realiza con la misma maquinaria o maquinarias similares. Por lo tanto, tenemos el mismo esquema:
+
 ![Imagenes](./Imagenes/Grafcet_Esmaltadora.png)
 
 - Cocción de Baldosa:
 Esta etapa calienta la baldosa cerámica a entre 900°C y 1200°C. Sin embargo, el proceso es el mismo que el realizado durante el secado, por lo que su esquema es muy similar al del secador:
+
 ![Imagenes](./Imagenes/Grafcet_Horno.png)
 
 #### Diagramas Ladder:
@@ -477,18 +484,22 @@ En esta etapa, haciendo uso de los esquemas Grafcet y su sistema de etapas, se r
 
 - Main Program:
 Como planteamos al inicio, es necesario que las máquinas sean independientes de los estados de las otras. Por lo tanto, para el esquema ladder partimos de un Main Program que ejecuta los subprogramas de cada maquinaria:
+
 ![Imagenes](./Imagenes/Ladder_Main_Program.png)
 
 - Silo SubRutina:
 Para la máquina del silo, partimos del esquema en Grafcet previamente descrito y realizamos un código en dos secciones. La primera es la sección de estados, en la cual activamos y desactivamos los bits de memoria que se usan en cada estado de la máquina. En la segunda parte del código, tenemos la etapa de selector de estados. Esta etapa se encarga de seleccionar un estado de la maquinaria según corresponde con el conjunto de señales que permiten el salto de puntero en Grafcet. Partimos de una condición inicial para cuando se enciende la maquinaria y luego pasamos a los estados de trabajo indicados con el nombre de la maquinaria y el número del estado de Grafcet:
+
 ![Imagenes](./Imagenes/Ladder_Silo_Program.png)
 
 - Prensa SubRutina:
 Para esta máquinaria, tenemos un esquema con una bifurcación OR que nos permite decidir entre el estado de conteo y el estado de prensado. Esta bifurcación de conteo hace uso de un estado auxiliar debido a que para poder salir y volver a entrar en un estado para el esquema en ladder no es tan sencillo de programar, por lo que se hace uso de un estado temporal para permitir ese bucle de entrada y salida del mismo estado. Para la salida en OR, hay un bit de memoria que al activarse o no permite decidir entre un estado u otro:
+
 ![Imagenes](./Imagenes/Ladder_Prensa_Program.png)
 
 - Secadora SubRutina:
 Para el estado de la Secadora, tenemos un esquema simple con el último estado en bucle. Como en el estado final es un bucle sobre sí mismo, hacemos uso de un estado auxiliar para permitir la salida y reingreso sobre el mismo estado:
+
 ![Imagenes](./Imagenes/Ladder_Secadora_Program.png)
 
 - Otros diagramas:
@@ -496,7 +507,12 @@ Para el esquema del horno, tenemos que su similitud con el esquema del secador n
 
 - Video de funcionamiento en Studio 5000 con Logix Emulate:
 En este video podemos observar cómo las 3 lógicas funcionan en el código, haciendo uso de entradas simuladas al forzarse en el PLC virtual:
-![Video](./Video/Video%20Ladder%20.mp4)
+
+
+
+https://github.com/Tecnomotion-UNAL2024-1/PROYECTO_APM/assets/61796945/a15123dc-729b-4c9a-ae6b-af3e5c350037
+
+
 
 
 ### Comunicaciones
