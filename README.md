@@ -281,9 +281,17 @@ En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo d
 
 ##  3. Gestión de Producción y Automatización
 
-### VSM(Actual)
+### VSM (Actual)
 
-![Imagenes](./Imagenes/VSM (actual) V2.png)
+Para una planta de una línea con capacidad de modificar sus parámetros para adaptarla a 3 posibles productos, consta de una línea de procesos como se presenta en:
+
+![Imágenes](./Imágenes/VSM_actual_V2.png)
+
+### VSM (Propuesta)
+
+Según las observaciones realizadas mediante las simulaciones y el análisis de la planta actual, se logró divisar que el principal cuello de botella se encuentra en la parte de revisión o clasificación, y en la parte de embalaje y paletizado. En base a esto, se propone el siguiente Mapa de flujo de valor (Value Stream Map):
+
+![Imágenes](./Imágenes/VSM_propuesta_V2.png)
 
 
 ## 4. Industria 4.0 en la Automatización
@@ -417,8 +425,48 @@ Si bien la intención original era implementar la rutina completa de toda la pla
 
 ###  Controladores Industriales (PLC)
 
-- En GitHub, explicar cómo se desglosó el problema de control secuencial estableciendo operación, etapas, transiciones y modos, realizando una apropiada implementación en lógica programada (Grafcet y Ladder).
-- Identificar posibles puntos de aplicación de actuadores (neumáticos, hidráulicos o eléctricos) dentro del proyecto de automatización.
+Para la implementacion del controlador instruial se realizo un estudio de las etapas por la que pasa un producto en as diferentes estaciones y las dependencias, partiendo de la linea de produccion de forma seuencial incluyendo medios de trasnporte tenemos:
+
+![Imagenes](./Imagenes/Grafcet_Linea%20de%20Produccion.png)
+
+Partiendo de esta linea de produccion tenemos las maquinarias por las que pasa cada etapa del producto, para el analisis de cada etapa partimos del hecho de que cada etapa es independiente de las otras, esto significa que ningun estado de las otras etapas debe condicionar la etapa actual salvo por los sensores de posicion de material que condiciona la entrada salida y operacion de cada etapa, por lo tanto partimos realizamos un analisis conceptual de las posibles señales y los posibles sensores requeridos para esta etapa:
+
+![Imagenes](./Imagenes/Grafcet_Señales%20supuestas.png)
+
+En este desgloce simple de señales por maquinaria incluyendo maquinarias de transporte podemos empezar con el analisis por estacion de trabajo, osea maquinarias sin incluir Bandas transportadoras, para esto partimos de que cada maquina tiene acceso a maximo 2 maquinarias de transporte, una de ingreso y una de salida por lo tanto tenemos para las maquinas:
+
+- Silo de almacenamiento de materia prima:
+En esta etapa partimos de que el silo suministra materia prima mediante un dispensador el cual se activa mendiante un temporizador, finalizado ese tiempo se activa el transporte de salida, se detectan los sensores de salida y se repite el porceso de forma continua con lo que tenemos:
+![Imagenes](./Imagenes/Grafcet_Silo.png)
+
+- Prensa de materia prima:
+En esta etapa tomamos la materia prima la cual es un polvo o una mezcla granular la cual ingresa en multiples etapas de suministrado por lo que para este paso se hace uso de un contador el cuantas veces a ingresado una tanda de materia prima a la prensa antes del prensado, luego se realiza el prensado este se mide en tiempo por lo cual el prensado posee un temporizador al finalizar tenemos la salida de la materia prima y el proceso vuelve a empezar desde el reinicio del contador:
+![Imagenes](./Imagenes/Grafcet_Prensa.png)
+
+- Secado de material comprimido:
+En esta etapa es necesario retirar la humedad presente en la materia prima comprimida, para esto se usa un secador, en este caso se usa un secador continuo lineal en el cual la materia prima comprimida entra en un horno con temperaturas bajas y corto tiempo, dentro del horno hay bandas transportadoras que continuamente desplzan la materia comprimida desde la entrada a la salida, este proceso es mas simple por que solo se enciende el horno se obtienen la teperatura objetivo e ingresa continuamente material por lo tanto tenemos:
+![Imagenes](./Imagenes/Grafcet_Secadora.png)
+
+- Engobe de baldosa:
+En esta etapa tenemos una maquina que recibe la baldosa aplica una capa de engobe acada baldosa, esta etapa recibe el material activa el proceso, temina el proceso de aplicacion de engobe, luego se detiene el proceso reactiva el paso de la baldosa a la siguiente etapa recibe otra baldosa sin engobe y vuelve a hacer el proceso con lo que tenemos:
+![Imagenes](./Imagenes/Grafcet_Esmaltadora.png)
+
+- Impresion o aplicacion de patronde color:
+En esta etapa tenemos la aplicacion del color mediante la impresora, esta etapa si bien es un proceso diferente su fincionamiento secuencial es equivalente al de la esmaltadora pro lo tanto tenemos un esquema similar:
+![Imagenes](./Imagenes/Grafcet_Impresora.png)
+
+- Esmaltado de baldosa:
+En esta etapa aplicamos la ultima capa de material sobre la baldosa, este es el esmalte, este poceso es exactamente el mismo al de engobe ya que esto se realiza con la misma maquinaria o maquinarias similares, por lo tanto tenemos el mismo esqumema:
+![Imagenes](./Imagenes/Grafcet_Esmaltadora.png)
+
+- Coccion de Baldosa:
+Esta etapa calienta la baldosa ceramica de entre 900°C a 1200°C, sin embargo el proceso es el mismo realizado durante el secado por lo que su esquema es muy similar al del secador:
+![Imagenes](./Imagenes/Grafcet_Horno.png)
+
+#### Diagramas ladder:
+En esta etapa haciendo uso de los esquemas grafcet y su sitema de etapas se realizaron esquemas ladder secuenciales activados por y detenidos por secuencias en este proceso tenemos:
+
+- Main Program
 
 ### Comunicaciones
 
