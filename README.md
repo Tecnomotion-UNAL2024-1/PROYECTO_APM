@@ -342,7 +342,7 @@ Por ello, se propone incorporar una celda robótica automatizada para el paletiz
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=vMbRP_F7hY4" target="_blank" rel="noreferrer">
-    <img width="500px" src="https://github.com/DaniloI152/RoboticaLab5_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/videoicon.png"/>
+    <img width="500px" src="https://github.com/Tecnomotion-UNAL2024-1/PROYECTO_APM/blob/main/Imagenes/video.png"/>
   </a>
 </p>
 
