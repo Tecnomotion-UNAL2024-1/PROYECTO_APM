@@ -342,7 +342,7 @@ Por ello, se propone incorporar una celda robótica automatizada para el paletiz
 Hemos desarrollado un modelo tridimensional de las instalaciones de la planta de cerámica. En este modelo se muestra la distribución propuesta de las nuevas máquinas y equipos que formarán parte del proceso de automatización. Esta nueva disposición tiene como objetivo principal mejorar y optimizar los flujos de producción actuales, incrementando la eficiencia operativa de toda la planta. El modelo 3D permitirá visualizar de manera precisa la ubicación y el funcionamiento integrado de cada una de las máquinas automatizadas planificadas para su posterior instalación en las distintas áreas de la fábrica.
 <p align="center">
   <a target="_blank" rel="noreferrer">
-    <img width="500px" src="https://github.com/Tecnomotion-UNAL2024-1/PROYECTO_APM/blob/main/Imagenes/plantaCeramicaFisica5.png"/>
+    <img width="500px" src="https://github.com/Tecnomotion-UNAL2024-1/PROYECTO_APM/blob/main/Imagenes/planta%20v46.png"/>
   </a>
 </p>
 Posteriormente, se importó el modelo 3D a Siemens NX, en este entorno, se configuraron los parámetros físicos del modelo, incluyendo las propiedades de los objetos, las uniones y restricciones cinemáticas, así como la definición de sensores y actuadores que emularán el funcionamiento real de la planta. 
