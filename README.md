@@ -408,7 +408,7 @@ El siguiente paso será traducir estas secuencias de operación modeladas en NX 
 </p>
 Posteriormente, se estableció una conexión entre el software TIA Portal de Siemens y el entorno de simulación Siemens NX. Esto permitió comprobar el funcionamiento del controlador lógico programable (PLC) de manera virtual, previo a su implementación física real.
 La conexión se realizó de forma exitosa, logrando vincular el PLC virtual con el modelo 3D de la planta. Como prueba inicial, se programó y simuló la operación de la banda transportadora que conecta el silo de almacenamiento con la prensa de producción.
-Si bien la intención original era implementar la rutina completa de toda la planta automatizada durante esta fase, debido a limitaciones de tiempo, se propone continuar esta tarea utilizando el software Studio 5000 de Rockwell Automation. En este entorno ya se desarrolló un programa de control general, siguiendo la lógica y secuencia de operaciones planteada inicialmente en Siemens NX.
+Si bien la intención original era implementar la rutina completa de toda la planta automatizada durante esta fase, debido a limitaciones de tiempo, se propone continuar esta tarea utilizando el software Studio 5000 de Rockwell Automation. En este entorno ya se desarrolló un programa de control general, siguiendo la lógica y secuencia de operaciones planteada inicialmente en Siemens NX. Ver en el siguiente video:
 <p align="center">
   <a href="https://youtu.be/3ZzicSJprcc" target="_blank" rel="noreferrer">
     <img width="500px" src="https://github.com/Tecnomotion-UNAL2024-1/PROYECTO_APM/blob/main/Imagenes/APM5.png"/>
