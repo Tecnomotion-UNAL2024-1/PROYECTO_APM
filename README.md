@@ -280,13 +280,13 @@ En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo d
 
 Para una planta de una línea con capacidad de modificar sus parámetros para adaptarla a 3 posibles productos, consta de una línea de procesos como se presenta en:
 
-![Imagenes](./Imagenes/VSM%20(actual)%20V2.png.png)
+![Imagenes](./Imagenes/VSM%20(actual)%20V2.png)
 
 ### VSM (Propuesta)
 
 Según las observaciones realizadas mediante las simulaciones y el análisis de la planta actual, se logró divisar que el principal cuello de botella se encuentra en la parte de revisión o clasificación, y en la parte de embalaje y paletizado. En base a esto, se propone el siguiente Mapa de flujo de valor (Value Stream Map):
 
-![Imagenes](./Imagenes/VSM(propuesta)%20V2%20.png)
+![Imagenes](./Imagenes/VSM(propuesta)%20V2.png)
 
 
 ## 4. Industria 4.0 en la Automatización
