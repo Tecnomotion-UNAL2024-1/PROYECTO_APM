@@ -270,15 +270,6 @@ En el cual se muestra el cronograma de actividades y responsables de cada una de
 
 En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo de sus actividades desde la fecha de inicio hasta la fecha de entrega.
 
-
-
-
-
-
-
-
-
-
 ##  3. Gestión de Producción y Automatización
 
 ### Horarios Operarios
@@ -328,7 +319,9 @@ Además, en un nuevo informe de la [ANDI](https://www.andi.com.co/Uploads/Balanc
 
 Si tomamos como base una línea de producción con prensa trabajando 3 turnos de 8 horas, 24 dias al mes durante los doce meses con una eficiencia del 80%, se tiene un estimado de producción de 15.482.600 metros cuadrados equivalente a un 20.7% de la producción total nacional.
 
+## 7. Modelo CANVAS de negocios
 
+![Imagenes](./Imagenes/Canvas%20de%20Modelo%20de%20Negocio.png)
 
 ## 8. Celda de Manufactura Robotizada
 
