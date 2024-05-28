@@ -283,7 +283,7 @@ En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo d
 
 ### VSM(Actual)
 
-![Imagenes](./Imagenes/VSM(propuesta).png)
+![Imagenes](./Imagenes/VSM (actual) V2.png)
 
 
 ## Industria 4.0 en la Automatización
