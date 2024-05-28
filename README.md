@@ -339,8 +339,37 @@ Por ello, se propone incorporar una celda robótica automatizada para el paletiz
     •	60x60x42 cm, 17.5 Kg Cerámico de interiores.
     •	45x45x60 cm, 20.8 Kg.  Gres porcelanico.
 Teniendo en cuenta que el suministro de baldosas a la zona de paletizado se hace en bloques de dos cajas, podemos determinar la capacidad máxima de carga a manipular (55KG) por el robot basados en la de mayor peso.
-![Imagenes](./Imagenes/Veloce%20PH8200.png).
-  
+
+![Imagenes](./Imagenes/Europalet.png).
+
+Por otra parte, basado en información de referencia de las empresas de baldosas encontramos que ellos suelen usar palets que cumplen la norma europea; eruopalet o EPAL estándar de 1200x800 mm figura 10.1, con el cual teniendo en cuenta las dimensiones y el peso de las cajas de las baldosas determinamos tanto la cantidad como la distribución para ser paletizado según la referencia. Para el caso de la caja de baldosa 60x31x80cm, se hace el respectivo modelado de la distribución y cantidad de cajas en el palet, figura 10.2.
+
+  ![Imagenes](./Imagenes/Palet%20baldosas%2060x31.png).
+
+Este modelado nos permite saber la distancia más lejana en la que se debe ubicar una de las cajas, de tal manera que ya conociendo el peso máximo a manipular y el alcance máximo por medio del catálogo del fabricante de robots ABB hacemos la selección del robot que se adapta a nuestras necesidades, el cual es el robot IRB570, figura 10.3 que tiene una capacidad de carga de hasta 70Kg con un radio máximo de envolvente de 2.3 metros ficha técnica anexo 3.
+
+![Imagenes](./Imagenes/IRB570.png).
+
+Una de las particularidades de seleccionar el robot de 6 grados de libertad es la posibilidad de poder manipular las cajas que vienen en sentido horizontal y ubicarlas en el palet de manera vertical con eso ahorramos tiempo y eliminamos un paso en el alinea de proceso al tener que cambiarlas de sentido antes de poetizar.
+Por otra parte, con el fin de optimizar el tiempo en paletizado se propone hacer alimentación de estibas automáticamente, de tal manera que los palets se encuentras en columna vertical y una vez se requiere son alimentados por una banda transportadora la cual fue es modelada figura 10.4 ya que requiere unas condiciones especiales de carga y movimiento para transportar el palet tanto vació como cargado.
+
+![Imagenes](./Imagenes/Bandaestibas.png).
+
+La celda robótica comprende doble alimentador de estibas uno derecho y uno izquierdo los cueles son modelados y se muestran en la figura 10.5 con el fin de que mientras el robot paletiza una estiba y termina pueda ir a seguir paletizando la estiba que se encuentra en la banda transportadora contraria mientras la estiba cargada es movida hacia la salida y se alimenta una nuevo palet vació.
+
+![Imagenes](./Imagenes/Bandasdi.png).
+
+Una vez modelado se hace la implementacion de la celda robótica en RobotStudio figura 10.6 el cual se coloca la banda de alimentación de producto y las bandas de alimentación de estibas automáticamente.
+
+![Imagenes](./Imagenes/celdarobotstudio.png).
+
+En términos de seguridad cuanta con un encerramiento en malla que delimita el área de trabajo, existen 4 puntos de carga y descargue para el montacargas los cuales en la entrada tienen cortinas de seguridad.
+
+El único ingreso a la celda robótica par ale personal autorizado se hace por medio de una puerta en la parte posterior la cual también cuenta con interlock para seguridad que nadie vaya a ingresar mientras la celda está en operación.
+
+
+
+
 
 
 
