@@ -340,7 +340,11 @@ Por ello, se propone incorporar una celda robótica automatizada para el paletiz
 
 ### Digital Factory
 
-- En GitHub, colocar el enlace en YouTube del video de Siemens NX: Video del prototipo del Software Siemens NX evidenciando el respectivo modelamiento y configuración que represente la secuencia y lógica de funcionamiento del sistema, integrando sensores y actuadores virtuales.
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=vMbRP_F7hY4" target="_blank" rel="noreferrer">
+    <img width="500px" src="https://github.com/DaniloI152/RoboticaLab5_Abraham_Danilo_Nicolas_2023/blob/main/Imagenes/videoicon.png"/>
+  </a>
+</p>
 
 ### Controladores Industriales (PLC)
 
