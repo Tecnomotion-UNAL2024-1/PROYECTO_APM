@@ -258,13 +258,13 @@ Se busca reemplazarla por una esmaltadora de filera o velo que permite, mediante
 ## EDT 
 Con el fin de conocer a fondo el proceso de producción de baldosas e identificar aquellas partes del proceso a mejorar y así optimizar la línea de producción se crea el EDT (Figura 3)orientado a la programación y entregables:
 
-![Imagenes](./Imagenes/EDT.png).
+![Imagenes](./Imagenes/EDT_mayo27.png).
 
 ### Figura 3 EDT
 
 En el cual se muestra el cronograma de actividades y responsables de cada una de las actividades en la primera fase de entrega el cual es como una fase investigativa y argumentativa del proceso de producción, que  nos lleva hacia la identificación de la estación de trabajo que mediante nuestra propuesta de valor se busca optimizar mediante la automatización del proceso.
 
-![Imagenes](./Imagenes/Diagrama%20Gantt.png).
+![Imagenes](./Imagenes/Diagrama_Gantt%20_Mayo27.png).
 
 ### Figura 4 diagrama de Gantt.
 
