@@ -367,6 +367,18 @@ En términos de seguridad cuanta con un encerramiento en malla que delimita el �
 
 El único ingreso a la celda robótica par ale personal autorizado se hace por medio de una puerta en la parte posterior la cual también cuenta con interlock para seguridad que nadie vaya a ingresar mientras la celda está en operación.
 
+En cuanto a la programación de la celda en RobotStudio se hizo mediante el  uso de smartcomponent figura 10.7 el cual permite trabajar con bloques de programación con el fin de poder llevar una lógica que se permite interconectar de manera efectiva las entradas y salidas de los equipos que intervienen en la celda.
+
+![Imagenes](./Imagenes/celdarobotstudio.png).
+
+
+La automatización de la celda parte de que las bandas transportadoras sean automáticas, para el caso de la banda transportadora que alimenta las cajas se implementa un timer el cual genera baldosas cada 10 segundos.
+La banda se detiene una vez al final una caja llega al final de la banda y es detectada por un sensor de presencia, el cual envía una señal y activa la rutina de cargue de la caja, transporte al palet y descargue de la caja, retornando a su punto de inicio nuevamente a la espera de un nuevo producto para transportar.
+Una vez se detecta una nueva caja en la banda repite el ciclo con la diferencia que cambia la ubicación de destino donde dejara la caja y así lo repite una y otra vez el ciclo hasta completar el número de cajas total en el palet.
+Una vez lleno el palet de un lado e robot inicia paletizado en la banda transportadora opuesta mientras se transporta el palet que se completó y se ubica un palet vació.
+Así se mantiene el proceso cíclicamente y se detendrá hasta que el controlador de la señal de parada se active un sensor de seguridad y existiendo alguna vulneración al espacio de la celda.
+
+
 
 
 
