@@ -369,7 +369,7 @@ El único ingreso a la celda robótica par ale personal autorizado se hace por m
 
 En cuanto a la programación de la celda en RobotStudio se hizo mediante el  uso de smartcomponent figura 10.7 el cual permite trabajar con bloques de programación con el fin de poder llevar una lógica que se permite interconectar de manera efectiva las entradas y salidas de los equipos que intervienen en la celda.
 
-![Imagenes](./Imagenes/celdarobotstudio.png).
+![Imagenes](./Imagenes/Programacionrobot.png).
 
 
 La automatización de la celda parte de que las bandas transportadoras sean automáticas, para el caso de la banda transportadora que alimenta las cajas se implementa un timer el cual genera baldosas cada 10 segundos.
