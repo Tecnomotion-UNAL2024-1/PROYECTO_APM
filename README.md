@@ -285,13 +285,13 @@ En el diagrama de Gantt se muestra la trazabilidad cronológica del desarrollo d
 
 Para una planta de una línea con capacidad de modificar sus parámetros para adaptarla a 3 posibles productos, consta de una línea de procesos como se presenta en:
 
-![Imágenes](./Imágenes/VSM_actual_V2.png)
+![Imágenes](./Imagenes/VSM_actual_V2.png)
 
 ### VSM (Propuesta)
 
 Según las observaciones realizadas mediante las simulaciones y el análisis de la planta actual, se logró divisar que el principal cuello de botella se encuentra en la parte de revisión o clasificación, y en la parte de embalaje y paletizado. En base a esto, se propone el siguiente Mapa de flujo de valor (Value Stream Map):
 
-![Imágenes](./Imágenes/VSM_propuesta_V2.png)
+![Imágenes](./Imagenes/VSM_propuesta_V2.png)
 
 
 ## 4. Industria 4.0 en la Automatización
@@ -429,50 +429,75 @@ Si bien la intención original era implementar la rutina completa de toda la pla
   </a>
 </p>
 
-###  Controladores Industriales (PLC)
 
-Para la implementacion del controlador instruial se realizo un estudio de las etapas por la que pasa un producto en as diferentes estaciones y las dependencias, partiendo de la linea de produccion de forma seuencial incluyendo medios de trasnporte tenemos:
+### Controladores Industriales (PLC)
+#### Análisis y Esquemas Grafcet
+
+
+Para la implementación del controlador industrial se realizó un estudio de las etapas por las que pasa un producto en las diferentes estaciones y las dependencias. Partiendo de la línea de producción de forma secuencial, incluyendo medios de transporte, tenemos:
 
 ![Imagenes](./Imagenes/Grafcet_Linea%20de%20Produccion.png)
 
-Partiendo de esta linea de produccion tenemos las maquinarias por las que pasa cada etapa del producto, para el analisis de cada etapa partimos del hecho de que cada etapa es independiente de las otras, esto significa que ningun estado de las otras etapas debe condicionar la etapa actual salvo por los sensores de posicion de material que condiciona la entrada salida y operacion de cada etapa, por lo tanto partimos realizamos un analisis conceptual de las posibles señales y los posibles sensores requeridos para esta etapa:
+Partiendo de esta línea de producción, tenemos las maquinarias por las que pasa cada etapa del producto. Para el análisis de cada etapa, partimos del hecho de que cada etapa es independiente de las otras. Esto significa que ningún estado de las otras etapas debe condicionar la etapa actual, salvo por los sensores de posición de material que condicionan la entrada, salida y operación de cada etapa. Por lo tanto, realizamos un análisis conceptual de las posibles señales y los posibles sensores requeridos para esta etapa:
 
 ![Imagenes](./Imagenes/Grafcet_Señales%20supuestas.png)
 
-En este desgloce simple de señales por maquinaria incluyendo maquinarias de transporte podemos empezar con el analisis por estacion de trabajo, osea maquinarias sin incluir Bandas transportadoras, para esto partimos de que cada maquina tiene acceso a maximo 2 maquinarias de transporte, una de ingreso y una de salida por lo tanto tenemos para las maquinas:
+En este desglose simple de señales por maquinaria, incluyendo maquinarias de transporte, podemos empezar con el análisis por estación de trabajo, es decir, maquinarias sin incluir Bandas transportadoras. Para esto, partimos de que cada máquina tiene acceso a máximo 2 maquinarias de transporte, una de ingreso y una de salida. Por lo tanto, tenemos para las máquinas:
 
 - Silo de almacenamiento de materia prima:
-En esta etapa partimos de que el silo suministra materia prima mediante un dispensador el cual se activa mendiante un temporizador, finalizado ese tiempo se activa el transporte de salida, se detectan los sensores de salida y se repite el porceso de forma continua con lo que tenemos:
+En esta etapa, partimos de que el silo suministra materia prima mediante un dispensador, el cual se activa mediante un temporizador. Finalizado ese tiempo, se activa el transporte de salida, se detectan los sensores de salida y se repite el proceso de forma continua. Con lo que tenemos:
 ![Imagenes](./Imagenes/Grafcet_Silo.png)
 
 - Prensa de materia prima:
-En esta etapa tomamos la materia prima la cual es un polvo o una mezcla granular la cual ingresa en multiples etapas de suministrado por lo que para este paso se hace uso de un contador el cuantas veces a ingresado una tanda de materia prima a la prensa antes del prensado, luego se realiza el prensado este se mide en tiempo por lo cual el prensado posee un temporizador al finalizar tenemos la salida de la materia prima y el proceso vuelve a empezar desde el reinicio del contador:
+En esta etapa, tomamos la materia prima, la cual es un polvo o una mezcla granular que ingresa en múltiples etapas de suministrado. Por lo que para este paso se hace uso de un contador que cuenta cuántas veces ha ingresado una tanda de materia prima a la prensa antes del prensado. Luego se realiza el prensado, que se mide en tiempo, por lo cual el prensado posee un temporizador. Al finalizar, tenemos la salida de la materia prima y el proceso vuelve a empezar desde el reinicio del contador:
 ![Imagenes](./Imagenes/Grafcet_Prensa.png)
 
 - Secado de material comprimido:
-En esta etapa es necesario retirar la humedad presente en la materia prima comprimida, para esto se usa un secador, en este caso se usa un secador continuo lineal en el cual la materia prima comprimida entra en un horno con temperaturas bajas y corto tiempo, dentro del horno hay bandas transportadoras que continuamente desplzan la materia comprimida desde la entrada a la salida, este proceso es mas simple por que solo se enciende el horno se obtienen la teperatura objetivo e ingresa continuamente material por lo tanto tenemos:
+En esta etapa, es necesario retirar la humedad presente en la materia prima comprimida. Para esto, se usa un secador. En este caso, se usa un secador continuo lineal en el cual la materia prima comprimida entra en un horno con temperaturas bajas y corto tiempo. Dentro del horno, hay bandas transportadoras que continuamente desplazan la materia comprimida desde la entrada a la salida. Este proceso es más simple porque solo se enciende el horno, se obtiene la temperatura objetivo e ingresa continuamente material. Por lo tanto, tenemos:
 ![Imagenes](./Imagenes/Grafcet_Secadora.png)
 
 - Engobe de baldosa:
-En esta etapa tenemos una maquina que recibe la baldosa aplica una capa de engobe acada baldosa, esta etapa recibe el material activa el proceso, temina el proceso de aplicacion de engobe, luego se detiene el proceso reactiva el paso de la baldosa a la siguiente etapa recibe otra baldosa sin engobe y vuelve a hacer el proceso con lo que tenemos:
+En esta etapa, tenemos una máquina que recibe la baldosa, aplica una capa de engobe a cada baldosa. Esta etapa recibe el material, activa el proceso, termina el proceso de aplicación de engobe, luego se detiene el proceso, reactiva el paso de la baldosa a la siguiente etapa, recibe otra baldosa sin engobe y vuelve a hacer el proceso. Con lo que tenemos:
 ![Imagenes](./Imagenes/Grafcet_Esmaltadora.png)
 
-- Impresion o aplicacion de patronde color:
-En esta etapa tenemos la aplicacion del color mediante la impresora, esta etapa si bien es un proceso diferente su fincionamiento secuencial es equivalente al de la esmaltadora pro lo tanto tenemos un esquema similar:
+- Impresión o aplicación de patrón de color:
+En esta etapa, tenemos la aplicación del color mediante la impresora. Esta etapa, si bien es un proceso diferente, su funcionamiento secuencial es equivalente al de la esmaltadora. Por lo tanto, tenemos un esquema similar:
 ![Imagenes](./Imagenes/Grafcet_Impresora.png)
 
 - Esmaltado de baldosa:
-En esta etapa aplicamos la ultima capa de material sobre la baldosa, este es el esmalte, este poceso es exactamente el mismo al de engobe ya que esto se realiza con la misma maquinaria o maquinarias similares, por lo tanto tenemos el mismo esqumema:
+En esta etapa, aplicamos la última capa de material sobre la baldosa, este es el esmalte. Este proceso es exactamente el mismo que el de engobe, ya que se realiza con la misma maquinaria o maquinarias similares. Por lo tanto, tenemos el mismo esquema:
 ![Imagenes](./Imagenes/Grafcet_Esmaltadora.png)
 
-- Coccion de Baldosa:
-Esta etapa calienta la baldosa ceramica de entre 900°C a 1200°C, sin embargo el proceso es el mismo realizado durante el secado por lo que su esquema es muy similar al del secador:
+- Cocción de Baldosa:
+Esta etapa calienta la baldosa cerámica a entre 900°C y 1200°C. Sin embargo, el proceso es el mismo que el realizado durante el secado, por lo que su esquema es muy similar al del secador:
 ![Imagenes](./Imagenes/Grafcet_Horno.png)
 
-#### Diagramas ladder:
-En esta etapa haciendo uso de los esquemas grafcet y su sitema de etapas se realizaron esquemas ladder secuenciales activados por y detenidos por secuencias en este proceso tenemos:
+#### Diagramas Ladder:
+En esta etapa, haciendo uso de los esquemas Grafcet y su sistema de etapas, se realizaron esquemas ladder secuenciales activados por y detenidos por secuencias. En este proceso tenemos:
 
-- Main Program
+- Main Program:
+Como planteamos al inicio, es necesario que las máquinas sean independientes de los estados de las otras. Por lo tanto, para el esquema ladder partimos de un Main Program que ejecuta los subprogramas de cada maquinaria:
+![Imagenes](./Imagenes/Ladder_Main_Program.png)
+
+- Silo SubRutina:
+Para la máquina del silo, partimos del esquema en Grafcet previamente descrito y realizamos un código en dos secciones. La primera es la sección de estados, en la cual activamos y desactivamos los bits de memoria que se usan en cada estado de la máquina. En la segunda parte del código, tenemos la etapa de selector de estados. Esta etapa se encarga de seleccionar un estado de la maquinaria según corresponde con el conjunto de señales que permiten el salto de puntero en Grafcet. Partimos de una condición inicial para cuando se enciende la maquinaria y luego pasamos a los estados de trabajo indicados con el nombre de la maquinaria y el número del estado de Grafcet:
+![Imagenes](./Imagenes/Ladder_Silo_Program.png)
+
+- Prensa SubRutina:
+Para esta máquinaria, tenemos un esquema con una bifurcación OR que nos permite decidir entre el estado de conteo y el estado de prensado. Esta bifurcación de conteo hace uso de un estado auxiliar debido a que para poder salir y volver a entrar en un estado para el esquema en ladder no es tan sencillo de programar, por lo que se hace uso de un estado temporal para permitir ese bucle de entrada y salida del mismo estado. Para la salida en OR, hay un bit de memoria que al activarse o no permite decidir entre un estado u otro:
+![Imagenes](./Imagenes/Ladder_Prensa_Program.png)
+
+- Secadora SubRutina:
+Para el estado de la Secadora, tenemos un esquema simple con el último estado en bucle. Como en el estado final es un bucle sobre sí mismo, hacemos uso de un estado auxiliar para permitir la salida y reingreso sobre el mismo estado:
+![Imagenes](./Imagenes/Ladder_Secadora_Program.png)
+
+- Otros diagramas:
+Para el esquema del horno, tenemos que su similitud con el esquema del secador nos permite usar el mismo esquema pero con sus respectivos bits de memoria. Para el esquema de la impresora y los de las esmaltadoras, podemos partir del esquema del silo con sus respectivos bits de memoria gracias a su similitud.
+
+- Video de funcionamiento en Studio 5000 con Logix Emulate:
+En este video podemos observar cómo las 3 lógicas funcionan en el código, haciendo uso de entradas simuladas al forzarse en el PLC virtual:
+![Video](./Video/Video%20Ladder%20.mp4)
+
 
 ### Comunicaciones
 
