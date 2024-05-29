@@ -299,9 +299,32 @@ Según las observaciones realizadas mediante las simulaciones y el análisis de 
 
 ## 5.Evaluación Económica de Proyectos
 
-El proyecto para la producción de baldosas cerámicas en Bogotá, requiere una inversión inicial de $550,000,000. Esperamos generar ingresos anuales de $21,346,464,129 a lo largo del proyecto. Los principales gastos mensuales incluyen materia prima ($8,538,585,652), energía ($5,187,268,759), salarios ($399,126,000) y el arriendo mensual de la planta ($385,000,000).
+### Costos de desarrollo
+Cabe recordar que se realizó un pronostico de producción de 700.000 m2 mensuales y al producir unicamente 3 referencias del mercado tenemos que:
 
-Durante el primer mes, incurriremos en un costo operativo negativo debido a la inversión inicial y los gastos operativos, en donde la producción parará completamente mientras se realiza la instalación de equipos y su respectiva remodelación. A partir del segundo mes, esperamos ingresos mensuales de $1,778,872,011 contra costos operativos de $1,562,081,701, resultando en un flujo de efectivo neto positivo de $216,790,310 mensuales. Con estos flujos de efectivo, calculamos un Valor Presente Neto (VPN) de $61,662,418.13 y una Tasa Interna de Retorno (TIR) del 5%. Según nuestras proyecciones, recuperaremos nuestra inversión inicial en aproximadamente 15 meses.
+- Referencia de 60x60cm: Se produce un 40% de la estimación de producción mensual 
+- Referencia de 60x31cm: Se produce un 25% de la estimación de producción mensual 
+- Referencia de 45x45cm: Se produce un 35% de la estimación de producción mensual 
+
+Teniendo como referencia la cantidad e masa que contiene cada metro cuadrado, se determinó que se producen mensualmente 9192.13 toneladas de materia prima ($8,842,500,996)
+
+![Imagenes](./4.%20Evaluación%20económica%20del%20Proyecto/Costos%20produccion.png)
+
+### Costos operativos
+Los principales gastos mensuales operativos corresponden a la energía ($5,189,065,581), salarios ($399,126,000) y el arriendo mensual de la planta ($385,000,000).
+
+![Imagenes](./4.%20Evaluación%20económica%20del%20Proyecto/Costos%20operativos.png)
+
+### Costos de instalación
+El proyecto de automatización de producción de baldosas cerámicas, se requiere una inversión inicial de $1,626,968,000. Esta inversión corresponde a la nueva maquinaria especial para automatizarse, el diseño de una celda robótica para el paletizado y una pequeña inversión para la adecuación del espacio para su instalación
+
+![Imagenes](./4.%20Evaluación%20económica%20del%20Proyecto/inversion%20propuesta.png)
+
+### Marketing y ventas
+
+Esperamos generar ingresos anuales de $22,106,252,489 a lo largo del proyecto. Para esto nos guiaremos de mercancía de cerámica para la venta en almacenes de construcción. Las referencias que manejaremos se pueden vender en un valor menor a la mitad de la venta de los distribuidores directamente al cliente consumidor.
+
+Durante el primer mes, incurriremos en un costo operativo negativo debido a la inversión inicial y los gastos operativos, en donde la producción parará completamente mientras se realiza la instalación de equipos y su respectiva remodelación. A partir del segundo mes, esperamos ingresos mensuales de $1,842,187,707 contra costos operativos de $1,587,557,715, resultando en un flujo de efectivo neto positivo de $254,629,993 mensuales. Con estos flujos de efectivo, calculamos un Valor Presente Neto (VPN) de $87,248,857 y una Tasa Interna de Retorno (TIR) del 5%. Según nuestras proyecciones, recuperaremos nuestra inversión inicial en aproximadamente 22 meses.
 
 ![Imagenes](./4.%20Evaluación%20económica%20del%20Proyecto/Amortización.png)
 
