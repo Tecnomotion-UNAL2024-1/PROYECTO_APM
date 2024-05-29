@@ -306,12 +306,12 @@ Cabe recordar que se realizó un pronostico de producción de 700.000 m2 mensual
 - Referencia de 60x31cm: Se produce un 25% de la estimación de producción mensual 
 - Referencia de 45x45cm: Se produce un 35% de la estimación de producción mensual 
 
-Teniendo como referencia la cantidad e masa que contiene cada metro cuadrado, se determinó que se producen mensualmente 9192.13 toneladas de materia prima ($8,842,500,996)
+Teniendo como referencia la cantidad e masa que contiene cada metro cuadrado, se determinó que se producen mensualmente 9192.13 toneladas de materia prima ($8.842.500.996)
 
 ![Imagenes](./4.%20Evaluación%20económica%20del%20Proyecto/Costos%20produccion.png)
 
 ### Costos operativos
-Los principales gastos mensuales operativos corresponden a la energía ($5,189,065,581), salarios ($399,126,000) y el arriendo mensual de la planta ($385,000,000).
+Los principales gastos mensuales operativos corresponden a la energía ($5.189.065.581), salarios ($623.250.600) y el arriendo mensual de la planta ($385.000.000).
 
 ![Imagenes](./4.%20Evaluación%20económica%20del%20Proyecto/Costos%20operativos.png)
 
@@ -322,9 +322,9 @@ El proyecto de automatización de producción de baldosas cerámicas, se requier
 
 ### Marketing y ventas
 
-Esperamos generar ingresos anuales de $22,106,252,489 a lo largo del proyecto. Para esto nos guiaremos de mercancía de cerámica para la venta en almacenes de construcción. Las referencias que manejaremos se pueden vender en un valor menor a la mitad de la venta de los distribuidores directamente al cliente consumidor.
+Esperamos generar ingresos anuales de $22.106.252.489 a lo largo del proyecto. Para esto nos guiaremos de mercancía de cerámica para la venta en almacenes de construcción. Las referencias que manejaremos se pueden vender en un valor menor a la mitad de la venta de los distribuidores directamente al cliente consumidor.
 
-Durante el primer mes, incurriremos en un costo operativo negativo debido a la inversión inicial y los gastos operativos, en donde la producción parará completamente mientras se realiza la instalación de equipos y su respectiva remodelación. A partir del segundo mes, esperamos ingresos mensuales de $1,842,187,707 contra costos operativos de $1,587,557,715, resultando en un flujo de efectivo neto positivo de $254,629,993 mensuales. Con estos flujos de efectivo, calculamos un Valor Presente Neto (VPN) de $87,248,857 y una Tasa Interna de Retorno (TIR) del 5%. Según nuestras proyecciones, recuperaremos nuestra inversión inicial en aproximadamente 22 meses.
+Durante el primer mes, incurriremos en un costo operativo negativo debido a la inversión inicial y los gastos operativos, en donde la producción parará completamente mientras se realiza la instalación de equipos y su respectiva remodelación. A partir del segundo mes, esperamos ingresos mensuales de $1.842.187.707 contra costos operativos de  $  1.606.234.765 , resultando en un flujo de efectivo neto positivo de $254,629,993 mensuales. Con estos flujos de efectivo, calculamos un Valor Presente Neto (VPN) de $ 72.884.677 y una Tasa Interna de Retorno (TIR) del 4%. Según nuestras proyecciones, recuperaremos nuestra inversión inicial en aproximadamente 25 meses.
 
 ![Imagenes](./4.%20Evaluación%20económica%20del%20Proyecto/Amortización.png)
 
