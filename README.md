@@ -578,39 +578,59 @@ https://github.com/Tecnomotion-UNAL2024-1/PROYECTO_APM/assets/61796945/a15123dc-
 Para visualizar y operar el SCADA alojado en la nube, se proporcionará la dirección IP pública correspondiente.
 
 ### Proceso de aprendizaje
+## Proceso de Aprendizaje
 
-#### Gestión de Proyecto (Redacción Grupal)
+### Gestión de Proyecto (Redacción Grupal)
+**Dinámica de las reuniones, manejo de tiempos y recursos, discusiones y verificación de avance de proyecto, interacción con el equipo docente facilitador:**
 
-#### Trabajo Colaborativo
+Para la parte de gestión de proyecto, en especial de organización entre los integrantes del equipo, acordamos un conjunto de canales de comunicación:
 
-#### Proceso de Aprendizaje
-1. Daniel Delgado: 
+- **Canal Rápido:** *WhatsApp*. Esta herramienta facilitó la comunicación inmediata de conceptos simples, mensajes cortos y la organización de elementos más complejos.
+- **Canal Largo:** *Google Meet*. La comunicación mediante Google Meet facilitaba reuniones más complejas de varias horas y con enfoques detallados. También se utilizó para informar y desarrollar los avances respecto a las tareas personales que componían una tarea general.
+- **Canal enfocado al trabajo:** *Google Workspace*. El uso de los diferentes documentos de Google permitía el desarrollo del trabajo y el uso de comentarios permitía ajustar elementos simples de una tarea específica realizada en los documentos.
 
-2. Danilo Insuasty:
+Al principio, las reuniones fueron presenciales, pero conforme avanzó la problemática universitaria actual, estos espacios presenciales fueron desapareciendo. Las reuniones virtuales comenzaron desde el inicio y tomaron predominancia conforme la coyuntura. Al principio, se realizaron actas de reuniones en las cuales se evidenció la asignación de tareas. Conforme la coyuntura y la cantidad de tareas aumentaron, estas actas fueron perdiendo espacio para su desarrollo. Las reuniones, por condiciones propias de cada integrante, fueron difíciles de organizar, llegando a ser en horarios nocturnos y en días cercanos al fin de semana.
 
-3. Wilfer Fiquitiva:
-   
-El desarrollo del proyecto me brindó la oportunidad de integrar distintos conocimientos de diferentes áreas del conocimiento en producción, económica, automatización, robótica, entre otros. Lo cual me permitió poner en práctica los conocimientos adquiridos a lo largo de la carrera, dando una mirada desde distintas perspectivas, como lo es desde una gerencia general tanto en la postura de cliente y contratista. Lo cual permitió entender el objetivo del proyecto para así desarrollar la mejor propuesta en términos de valor agregado para la línea de producción generando mayor productividad y a su vez dando viabilidad no solo técnica sino financiera al proyecto para que se pueda ejecutar.
+Se realizó una reunión semanal para verificación de avances. Estas reuniones se llevaron a cabo efectivamente la mayor parte del semestre, exceptuando los momentos donde la coyuntura comenzó y el avance se vio truncado. En casos específicos, hubo días en los que algunos nos encontrábamos en la universidad y se detuvo la movilidad en la ciudad por conflictos de encapuchados con la policía, impidiendo el desarrollo de estas reuniones.
 
-Uno de los retos de este proyecto fue la carencia de información inicial lo cual fue mérito de bastante investigación para poder determinar la información real y más cercana al ambiente industrial propuesto, junto con el tiempo desaprovechado para incursionar en el desarrollo en ambientes de programación y simulación para el caso de RobotStudio debido al acceso de las licencias lo cual no permitió evidenciar el modelado y simulación total.
+La interacción con los docentes, en específico con los profesores Pedro Cárdenas y Ubaldo García, que fueron con quienes más interacción tuvimos, fue mediante reuniones en persona con el profesor Pedro, quien nos pudo otorgar parte de su tiempo para aclaración de dudas, especialmente cuando la coyuntura comenzó a desarrollarse y las clases recién se cancelaron. Con el profesor Ubaldo, la interacción fue gracias al grupo de WhatsApp que él creó, con el cual pudimos interactuar con él y con otros compañeros de otros grupos de trabajo.
 
+### Trabajo Colaborativo (Redacción Grupal)
+**Roles de los participantes, evidencias de realización de trabajo en equipo, análisis de la colaboración dentro del grupo y con el equipo docente facilitador:**
 
-5. Theylor Amaya:
+- **Daniel Delgado (Chief Executive Officer):** Cumplió con el rol de líder planeando y dirigiendo reuniones, fomentó el trabajo colaborativo, la discusión de ideas para llegar a consensos y proyectó una visión inicial del proyecto. Se encargó del diseño de la planta en Tecnomatix y del diseño de procesos de la Digital Factory en NX.
+- **Danilo Insuasty (Chief Operating Officer):** Facilitó que las reuniones fueran más dinámicas y productivas, siempre atento a las necesidades del grupo y a los objetivos. Apoyó el diseño de la planta en Tecnomatix, diseñó modelos 3D y sensores y señales en la Digital Factory.
+- **Wilfer Fiquitiva (Chief Product Officer):** Contribuyó con su experiencia en el campo para tomar decisiones acertadas frente al desarrollo del proyecto. Fue el principal encargado del diseño de la celda robótica y la rutina del robot de paletizado en Robotstudio. Apoyó en el análisis económico.
+- **Theylor Amaya (Chief Automation Officer):** Se encargó principalmente de la obtención y análisis de los KPIs. Además, fue el principal diseñador de la página web.
+- **Juan Cardenas (Chief Financial Officer):** Su compromiso fue fundamental para el desarrollo del proyecto. Ejecutó la evaluación económica, apoyó en el diseño de la página web y en la celda robótica, especialmente en aspectos de seguridad.
+- **Johan Castellanos (Chief Technology Officer):** Fue el principal diseñador de la programación de los PLC mediante GRAFCET y Ladder en Studio 5000, apoyó en el análisis económico.
 
-6. Juan Pablo Cardenas:
+La colaboración con los docentes fue esencial para aclarar dudas y adquirir una comprensión más detallada del proyecto. Las interacciones con el profesor Cardenas y el profesor Ubaldo fueron muy relevantes en la posterior toma de decisiones. Las reuniones con todo el equipo de profesores fueron enriquecedoras y aportaron detalle e importancia al proyecto.
 
+### Proceso de Aprendizaje (Redacción Individual)
 
-#### Recomendaciones
-1. Daniel Delgado: 
+**Johan Castellanos:** Para el proceso de aprendizaje, en especial el aprendizaje enfocado en problemas, fue complicado. Este tipo de aprendizaje depende de que las condiciones se den y que el problema esté definido desde un principio. Si bien era lo que esperaba, también fue innecesariamente difícil debido a situaciones y coyunturas que afectaron al curso. Logré alcanzar los logros mínimos de aprendizaje y me siento conforme con lo que aprendí en procesos y líneas de producción.
 
-2. Danilo Insuasty:
+**Daniel Delgado:** El proceso de aprendizaje fue una experiencia enriquecedora ya que se tocaron muchos temas interesantes con un énfasis en la aplicación de esos conocimientos a problemas concretos. Me costó en el inicio porque nunca había enfrentado un proyecto que implicase tanto detalle e investigación. Sin embargo, pienso que el esfuerzo dio sus frutos y se logró hacer un trabajo de calidad.
 
-3. Wilfer Fiquitiva:
-   
-Como recomendación general de la materia siento que esta materia se podría organizar en un ambiente real, en Colombia y especialmente en Bogotá existe un gran número de empresas pequeñas y medianas que pueden estar interesados en mejorar sus procesos de producción mediante la automatización de los mismos.
+**Danilo Insuasty:** El proceso de aprendizaje fue satisfactorio a pesar de las dificultades. Uno de los mayores logros fue el desarrollo de habilidades para trabajar efectivamente en equipo. Aprendimos a afrontar y resolver retos de manera conjunta, coordinando esfuerzos, estableciendo roles, comunicándonos asertivamente y tomando decisiones colectivas.
 
-Propongo que con anterioridad se busque una empresa a la cual se le pueda ofrecer una propuesta de mejora en sus procesos y con base a esto los estudiantes del grupo de APM trabajen entorno a cumplir este objetivo.  De tal manera que se pueda tener un contacto real con el sector industrial que permita abordar y solucionar problemas reales sin tener que imaginar o asumir información extraída de la teoría o el contenido visual que en ocasiones no brinda la información específica que se requiere y es de importancia para la simulación de los procesos y fiabilidad de los resultados.
+**Wilfer Fiquitiva:** El proyecto me permitió integrar conocimientos de diferentes áreas, aplicando lo aprendido a lo largo de la carrera. A pesar de la carencia de información inicial y el tiempo desaprovechado debido al acceso a licencias, se logró desarrollar una propuesta viable tanto técnica como financieramente.
 
-5. Theylor Amaya:
+**Theylor Amaya:** Trabajé en el modelado de KPI y el diseño de la página web. A pesar de las complicaciones, se logró aplicar conocimientos técnicos y habilidades adquiridas. El esfuerzo valió la pena y me siento satisfecho con los resultados obtenidos y la calidad del trabajo en equipo.
 
-6. Juan Pablo Cardenas:
+**Juan Pablo Cardenas:** A pesar de las dificultades, logramos realizar un trabajo conjunto destacando conocimientos individuales para construir el proyecto. El compromiso de mis compañeros y la determinación para avanzar fueron clave. Mi rol en el análisis financiero puso en práctica conocimientos respecto a la contabilidad empresarial.
+
+### Recomendaciones para futuros trabajos de Aprendizaje Basado en Problemas orientado a Proyecto (Redacción Individual)
+
+**Johan Castellanos:** Se debe tener claro el proyecto desde la semana 1 y que cada docente sepa para qué se usa cada módulo que enseña. También es necesario mejorar en aspectos como organización, comunicación y trabajo en equipo desde el principio.
+
+**Daniel Delgado:** Es esencial tener un documento claro de objetivos del proyecto desde el inicio. Se debe fortalecer la disciplina y la proactividad tanto del lado de los estudiantes como del profesorado. Las guías y la información compartida deben ser más detalladas.
+
+**Danilo Insuasty:** Se debe mejorar el acompañamiento y la retroalimentación docente durante el proceso. Reforzar la comunicación efectiva y proactiva es clave. Se recomienda establecer un cronograma detallado desde el inicio y proporcionar formación específica en herramientas técnicas.
+
+**Wilfer Fiquitiva:** Propongo buscar una empresa real para ofrecer una propuesta de mejora en sus procesos, lo cual permitirá abordar problemas reales y mejorar la fiabilidad de los resultados.
+
+**Theylor Amaya:** Es fundamental mejorar la planificación, la comunicación y el trabajo en equipo desde el principio. Se recomienda proporcionar formación específica en el uso de herramientas técnicas y establecer un sistema de retroalimentación continua con los docentes.
+
+**Juan Pablo Cardenas:** Es necesario proporcionar información más detallada sobre el proyecto para obtener resultados precisos y realistas. Se debe mejorar la coordinación y comunicación con los docentes y asegurar un compromiso más constante y proactivo.
