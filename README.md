@@ -412,7 +412,10 @@ Una vez se detecta una nueva caja en la banda repite el ciclo con la diferencia 
 Una vez lleno el palet de un lado e robot inicia paletizado en la banda transportadora opuesta mientras se transporta el palet que se completó y se ubica un palet vació.
 Así se mantiene el proceso cíclicamente y se detendrá hasta que el controlador de la señal de parada se active un sensor de seguridad y existiendo alguna vulneración al espacio de la celda.
 
+#### Consideraciones de seguridad (Matriz de seguridad)
 
+![Imagenes](./5.%20Celda%20de%20Manufactura%20Robotizada/matrizSeg1.png)
+![Imagenes](./5.%20Celda%20de%20Manufactura%20Robotizada/matrizSeg2.png)
 
 
 
