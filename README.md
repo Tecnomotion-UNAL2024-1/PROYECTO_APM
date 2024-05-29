@@ -589,7 +589,9 @@ Para visualizar y operar el SCADA alojado en la nube, se proporcionará la direc
 2. Danilo Insuasty:
 
 3. Wilfer Fiquitiva:
+   
 El desarrollo del proyecto me brindó la oportunidad de integrar distintos conocimientos de diferentes áreas del conocimiento en producción, económica, automatización, robótica, entre otros. Lo cual me permitió poner en práctica los conocimientos adquiridos a lo largo de la carrera, dando una mirada desde distintas perspectivas, como lo es desde una gerencia general tanto en la postura de cliente y contratista. Lo cual permitió entender el objetivo del proyecto para así desarrollar la mejor propuesta en términos de valor agregado para la línea de producción generando mayor productividad y a su vez dando viabilidad no solo técnica sino financiera al proyecto para que se pueda ejecutar.
+
 Uno de los retos de este proyecto fue la carencia de información inicial lo cual fue mérito de bastante investigación para poder determinar la información real y más cercana al ambiente industrial propuesto, junto con el tiempo desaprovechado para incursionar en el desarrollo en ambientes de programación y simulación para el caso de RobotStudio debido al acceso de las licencias lo cual no permitió evidenciar el modelado y simulación total.
 
 
@@ -604,7 +606,9 @@ Uno de los retos de este proyecto fue la carencia de información inicial lo cua
 2. Danilo Insuasty:
 
 3. Wilfer Fiquitiva:
+   
 Como recomendación general de la materia siento que esta materia se podría organizar en un ambiente real, en Colombia y especialmente en Bogotá existe un gran número de empresas pequeñas y medianas que pueden estar interesados en mejorar sus procesos de producción mediante la automatización de los mismos.
+
 Propongo que con anterioridad se busque una empresa a la cual se le pueda ofrecer una propuesta de mejora en sus procesos y con base a esto los estudiantes del grupo de APM trabajen entorno a cumplir este objetivo.  De tal manera que se pueda tener un contacto real con el sector industrial que permita abordar y solucionar problemas reales sin tener que imaginar o asumir información extraída de la teoría o el contenido visual que en ocasiones no brinda la información específica que se requiere y es de importancia para la simulación de los procesos y fiabilidad de los resultados.
 
 5. Theylor Amaya:
