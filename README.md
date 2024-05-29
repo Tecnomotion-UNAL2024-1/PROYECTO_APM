@@ -576,3 +576,32 @@ https://github.com/Tecnomotion-UNAL2024-1/PROYECTO_APM/assets/61796945/a15123dc-
 - Detalles de la configuración del SCADA, incluyendo la comunicación OPC entre Controlador Industrial e Ignition Local 1, así como la comunicación MQTT entre Ignition Local 1 e Ignition Nube. Se describirá también la comunicación OPC entre Siemens NX e Ignition Local 2, y entre otras plataformas industriales con Ignition Local 3, todas comunicándose por MQTT con Ignition Nube.
 
 Para visualizar y operar el SCADA alojado en la nube, se proporcionará la dirección IP pública correspondiente.
+
+### Proceso de aprendizaje
+
+#### Gestión de Proyecto (Redacción Grupal)
+
+#### Trabajo Colaborativo
+
+#### Proceso de Aprendizaje
+1. Daniel Delgado: 
+
+2. Danilo Insuasty:
+
+3. Wilfer Fiquitiva:
+
+4. Theylor Amaya:
+
+5. Juan Pablo Cardenas:
+
+
+#### Recomendaciones
+1. Daniel Delgado: 
+
+2. Danilo Insuasty:
+
+3. Wilfer Fiquitiva:
+
+4. Theylor Amaya:
+
+5. Juan Pablo Cardenas:
