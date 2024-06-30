@@ -376,28 +376,38 @@ Teniendo en cuenta que el suministro de baldosas a la zona de paletizado se hace
 
 ![Imagenes](./Imagenes/Europalet.png).
 
+figura 10.1 europalet
+
 Por otra parte, basado en información de referencia de las empresas de baldosas encontramos que ellos suelen usar palets que cumplen la norma europea; eruopalet o EPAL estándar de 1200x800 mm figura 10.1, con el cual teniendo en cuenta las dimensiones y el peso de las cajas de las baldosas determinamos tanto la cantidad como la distribución para ser paletizado según la referencia. Para el caso de la caja de baldosa 60x31x80cm, se hace el respectivo modelado de la distribución y cantidad de cajas en el palet, figura 10.2.
 
   ![Imagenes](./Imagenes/Palet%20baldosas%2060x31.png).
   
-  figura 10.1 Palet.
+  figura 10.2 Palet cargado con baldosa 60x31cm.
 
 Este modelado nos permite saber la distancia más lejana en la que se debe ubicar una de las cajas, de tal manera que ya conociendo el peso máximo a manipular y el alcance máximo por medio del catálogo del fabricante de robots ABB hacemos la selección del robot que se adapta a nuestras necesidades, el cual es el robot IRB570, figura 10.3 que tiene una capacidad de carga de hasta 70Kg con un radio máximo de envolvente de 2.3 metros ficha técnica anexo 3.
 
 ![Imagenes](./Imagenes/IRB570.png).
+
+figura 10.3 Robot IBR 570 
 
 Una de las particularidades de seleccionar el robot de 6 grados de libertad es la posibilidad de poder manipular las cajas que vienen en sentido horizontal y ubicarlas en el palet de manera vertical con eso ahorramos tiempo y eliminamos un paso en el alinea de proceso al tener que cambiarlas de sentido antes de poetizar.
 Por otra parte, con el fin de optimizar el tiempo en paletizado se propone hacer alimentación de estibas automáticamente, de tal manera que los palets se encuentras en columna vertical y una vez se requiere son alimentados por una banda transportadora la cual fue es modelada figura 10.4 ya que requiere unas condiciones especiales de carga y movimiento para transportar el palet tanto vació como cargado.
 
 ![Imagenes](./Imagenes/Bandaestibas.png).
 
+figura 10.4 Banda transportadora de palets.
+
 La celda robótica comprende doble alimentador de estibas uno derecho y uno izquierdo los cueles son modelados y se muestran en la figura 10.5 con el fin de que mientras el robot paletiza una estiba y termina pueda ir a seguir paletizando la estiba que se encuentra en la banda transportadora contraria mientras la estiba cargada es movida hacia la salida y se alimenta una nuevo palet vació.
 
 ![Imagenes](./Imagenes/Bandasdi.png).
 
+figura 10.5 sistema alimentación de de palets.
+
 Una vez modelado se hace la implementacion de la celda robótica en RobotStudio figura 10.6 el cual se coloca la banda de alimentación de producto y las bandas de alimentación de estibas automáticamente.
 
 ![Imagenes](./Imagenes/celdarobotstudio.png).
+
+figura 10.6 Alimentacion de caja de baldosas 
 
 En términos de seguridad cuanta con un encerramiento en malla que delimita el área de trabajo, existen 4 puntos de carga y descargue para el montacargas los cuales en la entrada tienen cortinas de seguridad.
 
@@ -406,6 +416,8 @@ El único ingreso a la celda robótica par ale personal autorizado se hace por m
 En cuanto a la programación de la celda en RobotStudio se hizo mediante el  uso de smartcomponent figura 10.7 el cual permite trabajar con bloques de programación con el fin de poder llevar una lógica que se permite interconectar de manera efectiva las entradas y salidas de los equipos que intervienen en la celda.
 
 ![Imagenes](./Imagenes/Programacionrobot.png).
+
+figura 10.7 Implementación de smart components.
 
 
 La automatización de la celda parte de que las bandas transportadoras sean automáticas, para el caso de la banda transportadora que alimenta las cajas se implementa un timer el cual genera baldosas cada 10 segundos.
@@ -441,53 +453,62 @@ F2 mas de dos veces cada dos semanas ya que se requiere chequeo e mantenimiento 
 3.	Posibilidad de evitar o limitar el peligro:
 P2 difícilmente evitable ya que el robot debe ser intervenido para labores de ajuste de línea por personal capacitado.
 
-Tenemos que el PL e como se muestra en la figura, esto significa que el sistema de control tiene una probabilidad extremadamente baja de fallar al realizar su función de seguridad.
+Tenemos que el PL e como se muestra en la figura 10.8, esto significa que el sistema de control tiene una probabilidad extremadamente baja de fallar al realizar su función de seguridad.
 
 Con el fin de que nuestro sistema cumpla la función de seguridad se hace una implementacion de distintos elementos de seguridad que integran la celda.
 
 ![Imagenes](./Imagenes/PL.png).
 
-Como primera medida de seguridad, se delimita el área de trabajo del robot mediante la. Se establecen puntos de acceso para carga y descarga, junto con una puerta de ingreso exclusiva para personal autorizado. De esta manera, se asegura que ninguna persona pueda estar dentro del alcance máximo del robot, evitando así riesgos de impacto.
+figura 10.8 PL
+
+Como primera medida de seguridad, se delimita el área de trabajo del robot mediante la implementación de rejas de seguridad figura 10.9. Se establecen puntos de acceso para carga y descarga, junto con una puerta de ingreso exclusiva para personal autorizado. De esta manera, se asegura que ninguna persona pueda estar dentro del alcance máximo del robot, evitando así riesgos de impacto.
 
 
 ![Imagenes](./Imagenes/AREA.png).
 
+figura 10.9 Delimitación área de trabajo celda robotica. 
 
 Como la celda robótica tiene seis puntos de acceso, se ha implementado lo siguiente:
 - Dos accesos con montacargas para el suministro de palets vacíos al alimentador.
 - Dos accesos con montacargas para el retiro de los palets cargados de baldosa en la salida de la celda.
 - Un acceso de baldosas por medio de la banda transportadora central.
 - Un acceso mediante una puerta que permite la entrada a personal autorizado de mantenimiento o programación.
-Estos accesos abren la posibilidad de que personal no autorizado pueda ingresar a la zona de trabajo de la celda robótica. Con el fin de mitigar el riesgo de accidentes, se instalan cortinas láser fotoeléctricas figura en los accesos de carga y descarga, así como en el acceso de baldosas de la banda transportadora central. Estas cortinas, al detectar el paso de una persona o máquina, como el montacargas, detienen inmediatamente el movimiento del robot y las bandas transportadoras. El sistema permanecerá detenido hasta que se verifique que no hay nadie dentro de la celda y el personal autorizado reanude el ciclo de trabajo de la celda.
+Estos accesos abren la posibilidad de que personal no autorizado pueda ingresar a la zona de trabajo de la celda robótica. Con el fin de mitigar el riesgo de accidentes, se instalan cortinas láser fotoeléctricas figura 10.10 en los accesos de carga y descarga, así como en el acceso de baldosas de la banda transportadora central. Estas cortinas, al detectar el paso de una persona o máquina, como el montacargas, detienen inmediatamente el movimiento del robot y las bandas transportadoras. El sistema permanecerá detenido hasta que se verifique que no hay nadie dentro de la celda y el personal autorizado reanude el ciclo de trabajo de la celda.
 
 
 ![Imagenes](./Imagenes/CORTINA.png).
 
+figura 10.10 Cortinas laser de seguridad.
 
-Para la puerta de ingreso del personal autorizado se utiliza un dispositivo de interbloqueo, el cual envía una señal cuando la puerta está abierta. Además, se emplea una cerradura de seguridad que, al estar abierta, también genera una señal que interrumpe el funcionamiento automático de la celda.
+
+Para la puerta de ingreso del personal autorizado se utiliza un dispositivo de interbloqueo figura 10.11, el cual envía una señal cuando la puerta está abierta. Además, se emplea una cerradura de seguridad que, al estar abierta, también genera una señal que interrumpe el funcionamiento automático de la celda.
 
 
 ![Imagenes](./Imagenes/INTERLOCK.png).
 
+figura 10.11 INTERLOCK
 
-Debido al tamaño de la celda, es necesario instalar paradas de emergencia en varios puntos. Se coloca una parada de emergencia en cada uno de los cinco accesos y se añaden dos más en el sistema de control directo del robot, para un total de siete paradas de emergencia.
+Debido al tamaño de la celda, es necesario instalar paradas de emergencia figura 10.12 en varios puntos. Se coloca una parada de emergencia en cada uno de los cinco accesos y se añaden dos más en el sistema de control directo del robot, para un total de siete paradas de emergencia.
 
 
 ![Imagenes](./Imagenes/STOP.png).
 
+figura 10.12 Parada de emergencia.
 
-Finalmente, se instalaron cuatro balizas luminosas de tres colores: rojo, amarillo y verde. Estas balizas permiten identificar cuándo la celda está en producción o en paro, y también indican cuándo un palet de salida está listo para ser cargado.
+Finalmente, se instalaron cuatro balizas luminosas de tres colores: rojo, amarillo y verde figura 10.13. Estas balizas permiten identificar cuándo la celda está en producción o en paro, y también indican cuándo un palet de salida está listo para ser cargado.
 
 
 
 ![Imagenes](./Imagenes/BALIZA.png).
 
-En la figura siguiente se muestra en resumen la integracionde cada uno de los elementos de seguridad de la celda robotica.
+figura 10.13 Baliza luminica.
+
+En la figura siguiente 10.14 se muestra en resumen la integracionde cada uno de los elementos de seguridad de la celda robotica.
 
 
 ![Imagenes](./Imagenes/INTEGRACION.png).
 
-
+figura 10.14 Integración de todos los componentes del sistema de seguridad.
 
 
 
