@@ -444,7 +444,44 @@ Con el fin de que nuestro sistema cumpla la función de seguridad se hace una im
 Como primera medida de seguridad, se delimita el área de trabajo del robot mediante la. Se establecen puntos de acceso para carga y descarga, junto con una puerta de ingreso exclusiva para personal autorizado. De esta manera, se asegura que ninguna persona pueda estar dentro del alcance máximo del robot, evitando así riesgos de impacto.
 
 
-![Imagenes](./Imagenes/PL.png).
+![Imagenes](./Imagenes/AREA.png).
+
+
+Como la celda robótica tiene seis puntos de acceso, se ha implementado lo siguiente:
+- Dos accesos con montacargas para el suministro de palets vacíos al alimentador.
+- Dos accesos con montacargas para el retiro de los palets cargados de baldosa en la salida de la celda.
+- Un acceso de baldosas por medio de la banda transportadora central.
+- Un acceso mediante una puerta que permite la entrada a personal autorizado de mantenimiento o programación.
+Estos accesos abren la posibilidad de que personal no autorizado pueda ingresar a la zona de trabajo de la celda robótica. Con el fin de mitigar el riesgo de accidentes, se instalan cortinas láser fotoeléctricas figura en los accesos de carga y descarga, así como en el acceso de baldosas de la banda transportadora central. Estas cortinas, al detectar el paso de una persona o máquina, como el montacargas, detienen inmediatamente el movimiento del robot y las bandas transportadoras. El sistema permanecerá detenido hasta que se verifique que no hay nadie dentro de la celda y el personal autorizado reanude el ciclo de trabajo de la celda.
+
+
+![Imagenes](./Imagenes/CORTINA.png).
+
+
+Para la puerta de ingreso del personal autorizado se utiliza un dispositivo de interbloqueo, el cual envía una señal cuando la puerta está abierta. Además, se emplea una cerradura de seguridad que, al estar abierta, también genera una señal que interrumpe el funcionamiento automático de la celda.
+
+
+![Imagenes](./Imagenes/INTERLOCK.png).
+
+
+Debido al tamaño de la celda, es necesario instalar paradas de emergencia en varios puntos. Se coloca una parada de emergencia en cada uno de los cinco accesos y se añaden dos más en el sistema de control directo del robot, para un total de siete paradas de emergencia.
+
+
+![Imagenes](./Imagenes/STOP.png).
+
+
+Finalmente, se instalaron cuatro balizas luminosas de tres colores: rojo, amarillo y verde. Estas balizas permiten identificar cuándo la celda está en producción o en paro, y también indican cuándo un palet de salida está listo para ser cargado.
+
+
+
+![Imagenes](./Imagenes/BALIZA.png).
+
+En la figura siguiente se muestra en resumen la integracionde cada uno de los elementos de seguridad de la celda robotica.
+
+
+![Imagenes](./Imagenes/INTEGRACION.png).
+
+
 
 
 
