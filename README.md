@@ -412,7 +412,48 @@ Una vez se detecta una nueva caja en la banda repite el ciclo con la diferencia 
 Una vez lleno el palet de un lado e robot inicia paletizado en la banda transportadora opuesta mientras se transporta el palet que se completó y se ubica un palet vació.
 Así se mantiene el proceso cíclicamente y se detendrá hasta que el controlador de la señal de parada se active un sensor de seguridad y existiendo alguna vulneración al espacio de la celda.
 
+
+
+
+
+#### Analisis de riesgo y seguridad industrial celda robotica de paletizado implementada
+
+Una parte muy importante en el diseño de la celda robótica es la seguridad de operación. Identificar los riesgos presentes para el personal mientras el robot se encuentra en funcionamiento es fundamental para mitigar los riesgos de accidentalidad, que pueden ir desde una lesión menor hasta una mutilación o incluso la muerte.
+
+Por tal razón, es crucial contar con un buen diseño de seguridad. Para ello, utilizaremos la norma ISO 13849 en sus dos partes. La parte 1 aborda los sistemas y componentes de seguridad en máquinas, la evaluación de riesgos y el cálculo de la función de seguridad. La parte 2 se enfoca en la validación del sistema.
+
+
+La normativa EN ISO 13849-1 es la base de la seguridad de sistemas de mando complejos para máquinas. Es una norma básica para la seguridad funcional y contiene requisitos internacionales unificados que hacen referencia a la determinación del nivel de prestaciones requerido, la identificación de partes de sistemas de mando relativas a la seguridad y la implementación de las funciones de seguridad. 
+Con base a esto iniciamos haciendo la evaluación de riesgo y el nivel de rendimiento requerido (PL), para esto se responde a las siguientes preguntas:
+
+1.	Gravedad de daño posible:
+S2: Ya que en la celda puede existir el riesgo de aplastamiento por la caída de una carga o generar lesiones graves de muerte por incurrir entrar en la zona de trayectoria del robot.
+
+2.	Frecuencia de exposición al peligro:
+F2 mas de dos veces cada dos semanas ya que se requiere chequeo e mantenimiento preventivo como ajuste en cambio de línea de producción.
+
+3.	Posibilidad de evitar o limitar el peligro:
+P2 difícilmente evitable ya que el robot debe ser intervenido para labores de ajuste de línea por personal capacitado.
+
+Tenemos que el PL e como se muestra en la figura, esto significa que el sistema de control tiene una probabilidad extremadamente baja de fallar al realizar su función de seguridad.
+
+Con el fin de que nuestro sistema cumpla la función de seguridad se hace una implementacion de distintos elementos de seguridad que integran la celda.
+
+![Imagenes](./Imagenes/PL.png).
+
+Como primera medida de seguridad, se delimita el área de trabajo del robot mediante la. Se establecen puntos de acceso para carga y descarga, junto con una puerta de ingreso exclusiva para personal autorizado. De esta manera, se asegura que ninguna persona pueda estar dentro del alcance máximo del robot, evitando así riesgos de impacto.
+
+
+![Imagenes](./Imagenes/PL.png).
+
+
+
+
+
 #### Consideraciones de seguridad (Matriz de seguridad)
+
+
+
 
 ![Imagenes](./5.%20Celda%20de%20Manufactura%20Robotizada/matrizSeg1.png)
 ![Imagenes](./5.%20Celda%20de%20Manufactura%20Robotizada/matrizSeg2.png)
