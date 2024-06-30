@@ -413,7 +413,7 @@ Una vez lleno el palet de un lado e robot inicia paletizado en la banda transpor
 Así se mantiene el proceso cíclicamente y se detendrá hasta que el controlador de la señal de parada se active un sensor de seguridad y existiendo alguna vulneración al espacio de la celda.
 
 
-
+![Videoss](./Videos/Simulacion%%Paletizado.mp4).
 
 
 #### Analisis de riesgo y seguridad industrial celda robotica de paletizado implementada
