@@ -390,12 +390,41 @@ Este modelado nos permite saber la distancia más lejana en la que se debe ubica
 
 figura 10.3 Robot IBR 570 
 
-Una de las particularidades de seleccionar el robot de 6 grados de libertad es la posibilidad de poder manipular las cajas que vienen en sentido horizontal y ubicarlas en el palet de manera vertical con eso ahorramos tiempo y eliminamos un paso en el alinea de proceso al tener que cambiarlas de sentido antes de poetizar.
-Por otra parte, con el fin de optimizar el tiempo en paletizado se propone hacer alimentación de estibas automáticamente, de tal manera que los palets se encuentras en columna vertical y una vez se requiere son alimentados por una banda transportadora la cual fue es modelada figura 10.4 ya que requiere unas condiciones especiales de carga y movimiento para transportar el palet tanto vació como cargado.
+Una de las particularidades de seleccionar el robot de 6 grados de libertad es la posibilidad de poder manipular las cajas que vienen en sentido horizontal y ubicarlas en el palet de manera vertical con eso ahorramos tiempo y eliminamos un paso en la linea de proceso al tener que cambiarlas de sentido antes de paletizar.
+
+Una vez seleccionado el robot y definidas las dimensiones del producto, se procede a la selección del gripper, la herramienta de sujeción del robot. Durante esta búsqueda, nos dimos cuenta de que, debido a las dimensiones, forma y condiciones de paletizado de las cajas de baldosas, no encontramos uno en el catálogo que se ajustara a nuestras necesidades.
+
+Por esta razón, se diseñó y modeló un gripper personalizado que se adapta tanto a las dimensiones del producto para las tres referencias figura 10.3.1, como a las condiciones de espacio al organizar las cajas en el palet. 
+
+![Imagenes](./Imagenes/modeladogripper.png).
+
+figura 10.3.1  Modelado gripper personalizado.
+
+
+
+La propuesta consiste en una pinza de dos paletas laterales, con guías lineales para la apertura y cierre en sentido horizontal figura 10.3.2 El movimiento es accionado por un motor con reductor, que transmite el movimiento a las pinzas mediante un engranaje y una cremallera dentada en el eje de desplazamiento de la pinza. Con esto, se garantiza la fuerza de cierre de la pinza sin riesgo de que se abra.
+
+
+![Imagenes](./Imagenes/mecanismoG.png).
+
+figura 10.3.2 Sistema de sujecion Gripper.
+
+
+Finalmente en la figura 10.3.3 se puede observar el gripper montado en la muñeca del robot.
+
+
+![Imagenes](./Imagenes/robotG.png).
+
+figura 10.3.3 Robot IRB570, Gripper montado.
+
+
+Por otra parte, con el fin de optimizar el tiempo en paletizado se propone hacer alimentación de estibas automáticamente, de tal manera que los palets se encuentras en columna vertical y una vez se requiere son alimentados por una banda transportadora la cual es modelada figura 10.4 ya que requiere unas condiciones especiales de carga y movimiento para transportar el palet tanto vació como cargado.
 
 ![Imagenes](./Imagenes/Bandaestibas.png).
 
 figura 10.4 Banda transportadora de palets.
+
+
 
 La celda robótica comprende doble alimentador de estibas uno derecho y uno izquierdo los cueles son modelados y se muestran en la figura 10.5 con el fin de que mientras el robot paletiza una estiba y termina pueda ir a seguir paletizando la estiba que se encuentra en la banda transportadora contraria mientras la estiba cargada es movida hacia la salida y se alimenta una nuevo palet vació.
 
